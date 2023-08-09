@@ -1,11 +1,18 @@
 .cabeca{
     background-color: #efe3db;
-    width: 200;
-    height: 160;
+    width: 100%;
+    height: 50%;
 }
 
 .title{
     text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .info{
@@ -43,4 +50,18 @@
 .rodape{
     background-color: #efe3db;
     margin-top: 200PX;
+    border-style: hidden;
+    height: 100px;
+}
+
+.botao1{
+    padding: 20px;
+    
+    margin-right: 250px ;
+}
+
+.botao2{
+    padding: 20px;
+    margin: 20px;
+    
 }
