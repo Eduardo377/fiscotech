@@ -89,3 +89,21 @@
   flex-wrap: nowrap;
   align-items: center;
 }
+
+#botao1 {
+  display: flex;
+}
+#botao2 {
+  display: flex;
+}
+#botao3 {
+  display: flex;
+}
+#botao4 {
+  display: flex;
+}
+#botaoTudo {
+  display: flex;
+  padding: 10%;
+  margin: 2%;
+}
