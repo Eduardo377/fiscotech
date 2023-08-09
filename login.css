@@ -1,0 +1,104 @@
+.header {
+    background-color: #efe3db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+}
+
+.logo {
+    width: 100px;
+    max-height: 100px;
+    headers: 66px;
+    margin-left: 50px;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+}
+nav {
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu {
+    margin: 5px;
+    width: 66px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 120px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.arrow {
+    height: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #c4c0bf;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: none;
+}
+
+.conteiner_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#username {
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+#password {
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.conteiner_login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    min-height: 100%;
+    padding: 15px;
+}
+
+.social {
+    height: 50px;
+}
