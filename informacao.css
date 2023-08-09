@@ -1,0 +1,46 @@
+.cabeca{
+    background-color: #efe3db;
+    width: 200;
+    height: 160;
+}
+
+.title{
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+    background-color: aquamarine;
+    border-style: hidden;
+}
+
+
+.coluna_1{
+    padding: 40px;
+    border-style: hidden;
+    background-color: cornflowerblue;
+    
+}
+
+.coluna_2{
+    padding: 40px;
+    border-style: hidden;
+    background-color: cornflowerblue;
+}
+
+.coluna_3{
+    padding: 40px;
+    border-style: hidden;
+    background-color: cornflowerblue;
+}
+
+.coluna_4{
+    padding: 40px;
+    border-style: hidden;
+    background-color: cornflowerblue;
+}
+
+.rodape{
+    background-color: #efe3db;
+    margin-top: 200PX;
+}

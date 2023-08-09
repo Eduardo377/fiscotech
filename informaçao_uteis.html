@@ -4,38 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações Úteis</title>
-    <style>
-        .info{
-            text-align: center;
-            background-color:   aquamarine;
-        }
-        .div_1{
-        
-            width:  auto;
-            padding: auto;
-        }
-
-        .div_2{
-            width: auto;
-            padding: auto;
-        }
-
-        .div_3{
-            width: auto;
-            padding: auto;
-        }
-
-        .div_4{
-            
-            width: 10%;
-        }
-    </style>
+    <link rel="stylesheet" href="informacao.css">
+   
     
   
 
 </head>
 <body>
-    <header style="background-color: #efe3db">
+    <header class="cabeca">
         <table width="100%">
           <td width="20%">
             <img
@@ -47,8 +23,8 @@
             />
           </td>
           <td><br /></td>
-           <td align="center" width="65%">
-            <span >
+           <td>
+            <span class="title">
               <h1><b>Fisco Tech</b></h1>
             </span>
           </td>
@@ -69,26 +45,28 @@
     <main>
         <h2 class="info">Informações úteis</h2>
 
-        <table class="div">
-            <td class="div_1">
-                <a href="#">Confira os países parceiros</a>
-            </td>
-
-            <td class=" div_2">
-                <a href="#">Saiba como são gastos os recursos das doações</a>
-            </td>
-
-            <td class=" div_3">
-                <a href="#">Fisco Tech em números</a>
-            </td>
-
-            <td class=" div_4">
-                <a href="#">Saiba mais sobre a estatísticas de abuso de autoridade pelo mundo</a>
-            </td>
-        </table>
+        <div class="elementos">
+            <table>
+                <td class="coluna_1">
+                    <a href="#">Confira os países parceiros</a>
+                </td>
+    
+                <td class="coluna_2">
+                    <a href="#">Saiba como são gastos os recursos das doações</a>
+                </td>
+    
+                <td class="coluna_3">
+                    <a href="#">Fisco Tech em números</a>
+                </td>
+    
+                <td class="coluna_4">
+                    <a href="#">Saiba mais sobre a estatísticas de abuso de autoridade pelo mundo</a>
+                </td>
+            </table>
+        </div>
     </main>
 
-    <footer style="background-color: #2c2c2c">
+    <footer class="rodape">
         <table>
           <td>
             <button>Nossas redes sociais</button>
