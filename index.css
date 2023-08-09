@@ -1,0 +1,118 @@
+.header {
+    background-color: #efe3db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+}
+
+.logo {
+    width: 100px;
+    max-height: 100px;
+    headers: 66px;
+    margin-left: 50px;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+}
+nav {
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu {
+    margin: 5px;
+    width: 66px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 120px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.arrow {
+    height: 15px;
+}
+
+main {
+    display: inline;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.conteiner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 30px;
+    max-width: 180px;
+    border: 7px solid #cdcdcd;
+    margin: 30px 60px;
+    text-align: center;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a91e30;
+}
+
+a {
+    text-decoration:none
+}
+.text-box {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-box-link-dark {
+    color: #000000; 
+}
+
+.text-box-link-2 {
+    color: #f35000; 
+}
+.text-box-link-3 {
+    color: #3d5a98; 
+}
+
+.botao-registro {
+    margin: 75px;
+}
+
+.registro {
+    max-height: 190px;
+    max-width: 250px;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    min-height: 100%;
+    padding: 15px;
+}
+
+.social {
+    height: 50px;
+}
