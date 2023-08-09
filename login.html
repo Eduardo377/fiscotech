@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Login</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
         <h1><strong>FISCO TECH</strong></h1>
         <nav>
             <span>
-                <a href="login.html">
+                <a href="#">
                     <img class="menu" src="./assets/avatar.png" alt="avatar">
                 </a>
                 <a href="#">
@@ -36,29 +36,21 @@
     </header>
 
     <main>
-        <div class="conteiner">
-            <div class="conteiner-box">
-                <span class="box">
-                    <h2 class="text-box">Como fazer uma denúncia?</h2>
-                    <h2 class="text-box"><a class="text-box-link-dark" href="#">Click aqui e confira.</a></h2>
-                </span>
-                <span class="box">
-                    <a href="#">
-                        <h1 class="text-box text-box-link-2">FAT</h1>
-                        <h2 class="text-box text-box-link-dark">Confira aqui os números</h2>
-                    </a>
-                </span>
-                <span class="box">
-                    <h1 class="text-box text-box-link-3">Doe</h1>
-                    <h2 class="text-box text-box-link-dark">Sua ajuda contribui com a continuidade deste site.</h2>
-                </span>
+        <form class="conteiner">
+            <div class="conteiner_input">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
             </div>
-            <button class="botao-registro">
-                <a href="./cadastro.html">
-                    <img src="./assets/register.png" class="registro" alt=" botão de registro">
-                </a>
-            </button>
-        </div>
+            <div>
+                <span class="conteiner_login">
+                    <label for="rememberMe">Remember me</label>
+                    <input type="checkbox" id="rememberMe" name="rememberMe" />
+                </span>
+                <button class="login"><a href="./Tela_Principal.html">Login</a></button>
+            </div>
+        </form>
     </main>
 
     <footer>
