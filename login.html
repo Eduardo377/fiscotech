@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
                 </a>
             </span>
             <a href="#">
-                <button>
+                <button class="idiomas">
                         idioma
                         <img class="arrow" src="./assets/arrow-botton.png" alt="seta pra abrir idiomas">
                 </button>
@@ -43,13 +43,18 @@
                 <label for="password"></label>
                 <input type="password" id="password" name="password" placeholder="Password" required>
             </div>
-            <div>
-                <span class="conteiner_login">
+            <div class="conteiner_login">
+                <span>
                     <label for="rememberMe">Remember me</label>
                     <input type="checkbox" id="rememberMe" name="rememberMe" />
                 </span>
-                <button class="login"><a href="./Tela_Principal.html">Login</a></button>
+                <button class="login"><a class="login-link" href="./Tela_Principal.html">Login</a></button>
             </div>
+            <span class="span">
+                <p>
+                    Forgot my password
+                </p>
+            </span>
         </form>
     </main>
 

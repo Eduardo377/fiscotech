@@ -27,7 +27,7 @@ nav {
     width: 66px;
 }
 
-button {
+.idiomas {
     background-color: #000000;
     color: #ffffff;
     border-radius: 15px;
@@ -46,15 +46,19 @@ button {
 }
 
 main {
+    margin-top: 110px;
+    margin-bottom: 110px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .conteiner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     background-color: #c4c0bf;
     width: 300px;
     height: 300px;
@@ -86,7 +90,27 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
+    color: #fff;
+}
+
+.login {
+    background-color: #00b8a9;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-link {
+    text-decoration:none;
+    color: #fff;
+}
+
+.span {
+    color: #fff;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer {
