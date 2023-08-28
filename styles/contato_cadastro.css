@@ -67,8 +67,5 @@ p small {
     border-radius: 3px;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-footer {
-    margin-top: 20px;
+    margin-bottom: 200px;
 }

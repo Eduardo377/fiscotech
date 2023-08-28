@@ -6,63 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fisco Tech</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header style="background-color: #efe3db">
-        <table width="100%">
-            <td width="20%">
-                <img src="/Logo.jpg" alt="Logo do site" width="160" height="130" />
-            </td>
-            <td><br /></td>
-            <td align="center" width="65%">
+    <body>
+        <header class="header">
+            <a href="../index.html" target="_blank" rel="noopener noreferrer">
+                <img class="logo" src="../assets/logo.png" alt="Logo do site" />
+            </a>
+
+            <a href="../index.html" target="_blank" alt="link pra home" rel="noopener noreferrer">
+                <h1><strong>FISCO TECH</strong></h1>
+            </a>
+            <nav>
                 <span>
-              <h1><b>Fisco Tech</b></h1>
-            </span>
-            </td>
-            <td><br /></td>
+                    <a href="#">
+                        <img class="menu" src="../assets/avatar.png" alt="avatar">
+                    </a>
+                    <a href="#">
+                        <img class="menu" src="../assets/menu.png" alt="menu">
+                    </a>
+                </span>
+                <a href="#">
+                    <button class="idiomas">
+                            idioma
+                            <img class="arrow" src="../assets/arrow-botton.png" alt="seta pra abrir idiomas">
+                    </button>
+                </a>
+            </nav>
+        </header>
 
-            <td width="15%">
-                <nav id="nav-principal"></nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="blog.html">Informações Úteis</a></li>
-                </ul>
-                </nav>
-            </td>
-        </table>
-    </header>
-
-
-
-    <div class="container">
-        <section id="idtextarea">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Descreva Aqui o Ocorrido, Com a Maior Qantidade De Detalhes Possível. Tudo é Importante Para Melhor Apuração Dos Fatos."></textarea>
-        </section>
-        <section class="section-label">
-            <label for="Upload" class="label">Imagens</label>
-            <button class="botoes">Upload</button>
-        </section>
-        <section>
-            <label for="Upload" class="label">Documentos</label>
-            <button class="botoes">Upload</button>
-        </section>
-        <section>
-            <label for="Upload" class="label">Audios Ou Videos</label>
-            <button class="botoes">Upload</button>
-        </section>
-        <section>
-            <button class="save-button">Salvar</button>
-        </section>
-    </div>
+        <div class="container">
+            <section id="idtextarea">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Descreva Aqui o Ocorrido, Com a Maior Qantidade De Detalhes Possível. Tudo é Importante Para Melhor Apuração Dos Fatos."></textarea>
+            </section>
+            <section class="section-label">
+                <label for="Upload" class="label">Imagens</label>
+                <button class="botoes">Upload</button>
+            </section>
+            <section>
+                <label for="Upload" class="label">Documentos</label>
+                <button class="botoes">Upload</button>
+            </section>
+            <section>
+                <label for="Upload" class="label">Audios Ou Videos</label>
+                <button class="botoes">Upload</button>
+            </section>
+            <section>
+                <button class="save-button">Salvar</button>
+            </section>
+        </div>
 
 
 
-    <div>
-        <a href="/Tela_Principal.html"><button class="voltar-button">Voltar</button></a>
-    </div>
-</body>
+        <div>
+            <a href="/Tela_Principal.html"><button class="voltar-button">Voltar</button></a>
+        </div>
+
+        <footer>
+            <div class="pos-footer">
+                <p>
+                    <a href="https://www.gov.br/mds/pt-br/acesso-a-informacao/lgpd#:~:text=A%20Lei%20Geral%20de%20Prote%C3%A7%C3%A3o,da%20personalidade%20de%20cada%20indiv%C3%ADduo." target="_blank" rel="noopener noreferrer" alt="Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018">
+                        Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018
+                    </a>
+                </p>
+            </div>
+            <div class="meio-footer">
+                <div class="footer-orientacao">
+                    <p>
+                        Nos siga nas redes sociais
+                    </p>
+                </div>
+                <div class="footer-rede-social">
+                    <a href="https://www.whatsapp.com/?lang=pt_BR">
+                        <img class="social" src="../assets/whatsapp-logo.png" alt="whatsapp">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="social" src="../assets/twitter-logo.png" alt="twitter">
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <img class="social" src="../assets/youtube-logo.png" alt="youtube">
+                    </a>
+                    <a href="https://br.pinterest.com/">
+                        <img class="social" src="../assets/pinterest-logo.png" alt="pintrest">
+                    </a>
+                    <a href="https://br.pinterest.com/">
+                        <img class="social" src="../assets/instagram-logo.png" alt="instagram">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img class="social" src="../assets/facebook-logo.png" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
 
 </html>

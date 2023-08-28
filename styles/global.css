@@ -6,16 +6,20 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 .header {
-    background-color: #efe3db;
+    background-color: #EDBB00;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
+
 }
 
 .logo {
-    width: 100px;
+    width: 250px;
     max-height: 100px;
     margin-left: 50px;
 }
@@ -62,16 +66,35 @@ a {
 
 
 footer {
-    background-color: #000000;
+    background-color: #EDBB00;
     display: flex;
-    justify-content: flex-end;
     gap: 15px;
-    align-items: center;
-    bottom: 0;
-    height: 80px;
+    height: 96px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.pos-footer {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.meio-footer{
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-orientacao {}
+
+.footer-rede-social {
 }
 
 .social {
-    height: 50px;
+    height: 25px;
 }
