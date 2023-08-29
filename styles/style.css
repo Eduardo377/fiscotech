@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+
+.botao {
+    background-color: #EDBB00;
+    border: none;
+    color: #000000;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#button-center {
+    margin-top: 150px;  
+}
+
+.botao:hover{
+    background-color: rgb(101, 143, 58);
+    
+}
+
+.botoes {
+    background-color: #000000;
+    border: none;
+    color: #EDBB00;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.save-button {
+    background-color: #A50044;;
+    border: none;
+    color: #EDBB00;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.voltar-button {
+    background-color: #A50044;;
+    border: none;
+    color: #EDBB00;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.label {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 20px;
+    color: #EDBB00;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+.label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+#idtextarea {
+    display: flex;
+    justify-content: left;
+}

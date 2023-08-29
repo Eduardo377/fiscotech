@@ -1,0 +1,109 @@
+.cabeca {
+  background-color: #efe3db;
+  width: 100%;
+  height: 50%;
+}
+
+.title {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.info {
+  text-align: center;
+  background-color: aquamarine;
+  border-style: hidden;
+}
+
+.coluna_1 {
+  padding: 40px;
+  border-style: hidden;
+  background-color: cornflowerblue;
+}
+
+.coluna_2 {
+  padding: 40px;
+  border-style: hidden;
+  background-color: cornflowerblue;
+}
+
+.coluna_3 {
+  padding: 40px;
+  border-style: hidden;
+  background-color: cornflowerblue;
+}
+
+.coluna_4 {
+  padding: 40px;
+  border-style: hidden;
+  background-color: cornflowerblue;
+}
+
+.rodape {
+  background-color: #efe3db;
+  margin-top: 200px;
+  border-style: hidden;
+  height: 100px;
+}
+
+.botao1 {
+  padding: 20px;
+
+  margin-right: 250px;
+}
+
+.botao2 {
+  padding: 20px;
+  margin: 20px;
+}
+
+#tudo {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+#caixaTexto {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5% 20px;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 5% 20px;
+}
+
+#botao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#botao1 {
+  display: flex;
+}
+#botao2 {
+  display: flex;
+}
+#botao3 {
+  display: flex;
+}
+#botao4 {
+  display: flex;
+}
+#botaoTudo {
+  display: flex;
+  padding: 10%;
+  margin: 2%;
+}

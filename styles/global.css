@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.header {
+    background-color: #EDBB00;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.logo {
+    width: 250px;
+    max-height: 100px;
+    margin-left: 50px;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    color: #000000;
+}
+
+nav {
+    display: inline;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    margin: 5px;
+    width: 66px;
+}
+
+.idiomas {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    width: 120px;
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.arrow {
+    height: 15px;
+}
+
+
+footer {
+    background-color: #EDBB00;
+    display: flex;
+    gap: 15px;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.pos-footer {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.meio-footer{
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .footer-orientacao {}
+
+.footer-rede-social {
+} */
+
+.social {
+    height: 25px;
+}

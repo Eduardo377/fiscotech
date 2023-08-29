@@ -1,0 +1,62 @@
+main {
+    display: inline;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.conteiner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    max-height: 250px;
+    min-height: 250px;
+    min-width: 30px;
+    max-width: 180px;
+    border: 7px solid #cdcdcd;
+    margin: 30px 60px;
+    text-align: center;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a91e30;
+}
+
+a {
+    text-decoration:none
+}
+.text-box {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-box-link-dark {
+    color: #000000; 
+}
+
+.text-box-link-2 {
+    color: #f35000; 
+}
+.text-box-link-3 {
+    color: #3d5a98; 
+}
+
+.botao-registro {
+    margin: 150px;
+    max-height: 0px;
+    max-width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro {
+    max-height: 190px;
+    max-width: 250px;
+}
