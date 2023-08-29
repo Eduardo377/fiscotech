@@ -14,8 +14,8 @@ main {
 }
 
 .box {
-    max-height: 250px;
-    min-height: 250px;
+    max-height: 200px;
+    min-height: 200px;
     min-width: 30px;
     max-width: 180px;
     border: 7px solid #cdcdcd;
