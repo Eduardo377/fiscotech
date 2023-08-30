@@ -1,39 +1,40 @@
+/* Main Content Styles */
 main {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
+
+/* Container Styles */
 .conteiner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
-}
-.conteiner-box {
-    display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
+/* Container Box Styles */
+.conteiner-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Box Styles */
 .box {
-    max-height: 200px;
     min-height: 200px;
-    min-width: 30px;
-    max-width: 180px;
+    max-width: 250px;
     border: 7px solid #cdcdcd;
-    margin: 30px 60px;
+    margin: 10px;
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #a91e30;
-}
-
-a {
-    text-decoration:none
-}
-.text-box {
-    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 .text-box-link-dark {
@@ -43,20 +44,21 @@ a {
 .text-box-link-2 {
     color: #f35000; 
 }
+
 .text-box-link-3 {
     color: #3d5a98; 
 }
 
+/* Registration Button Styles */
 .botao-registro {
-    margin: 150px;
-    max-height: 0px;
-    max-width: 0px;
+    margin-top: 100px;
+    max-width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .registro {
-    max-height: 190px;
-    max-width: 250px;
+    max-height: 150px;
+    max-width: 100%;
 }
