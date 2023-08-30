@@ -2,30 +2,30 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <title>Histórico de Solicitações</title>
   </head>
 
   <body>
     <header class="header">
-      <img class="logo" src="assets/logo.png" alt="Logo do site" />
+      <img class="logo" src="../assets/logo.png" alt="Logo do site" />
 
       <h1><strong>FISCO TECH</strong></h1>
       <nav>
         <span>
-          <a href="./pages/login.html">
-            <img class="menu" src="./assets/avatar.png" alt="avatar" />
+          <a href="../pages/login.html">
+            <img class="menu" src="../assets/avatar.png" alt="avatar" />
           </a>
           <a href="#">
-            <img class="menu" src="./assets/menu.png" alt="menu" />
+            <img class="menu" src="../assets/menu.png" alt="menu" />
           </a>
         </span>
         <a href="#">
@@ -33,79 +33,43 @@
             idioma
             <img
               class="arrow"
-              src="./assets/arrow-botton.png"
+              src="../assets/arrow-botton.png"
               alt="seta pra abrir idiomas"
             />
           </button>
         </a>
       </nav>
     </header>
-
     <main>
-      <section class="secao4" id="sobre">
-        <div class="secao4-div">
-          <div class="secao4-div-1">
-            <div class="secao4-div-1-coluna">
-              <!-- elemento imagem, h3 e p -->
-
-              <img
-                decoding="async"
-                loading="lazy"
-                src="/assets/9.jpg"
-                width="100%"
-                height="80"
-                alt="imagem do card 1 html e css"
-              />
-
-              <h3>Como Fazer uma Denúncia</h3>
-              <p>
-                Click aqui e saiba mais sobre como fazer uma denúncia através de
-                nosso site.
-              </p>
-            </div>
-          </div>
-
-          <div class="secao4-div-2">
-            <div class="secao4-div-2-coluna">
-              <!-- elemento imagem, h3 e p -->
-              <img
-                decoding="async"
-                loading="lazy"
-                src="/assets/10.jpg"
-                width="100%"
-                height="80"
-                alt="imagem do card 2 html e css"
-              />
-              <h3>Fisco Tec em Números</h3>
-              <p>
-                Confira aqui nossos dados estatisticos com total transparência e
-                credibilidade nas informações.
-              </p>
-            </div>
-          </div>
-
-          <div class="secao4-div-3">
-            <div class="secao4-div-3-coluna">
-              <!-- elemento imagem, h3 e p -->
-              <img
-                decoding="async"
-                loading="lazy"
-                src="/assets/11.avif"
-                width="100%"
-                height="80"
-                alt="imagem do card 3 html e css"
-              />
-              <h3>Como Contribuir</h3>
-              <p>
-                Saiba como você pode contribuir com nosso trabalho e ajudar a
-                manter esse serviço funcional e ativo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <br />
+      <table style="background-color: MediumSlateBlue">
+        <td>
+          <h2>Histórico de Solicitações</h2>
+        </td>
+      </table>
+      <br />
+      <table align="center" width="80%" border="1px">
+        <tr align="center">
+          <td width="35%" height="20%"><b>Assunto</b></td>
+          <td width="20%"><b>Data</b></td>
+          <td width="15%"><b>Acesso</b></td>
+          <td width="10%"><b>Excluir</b></td>
+        </tr>
+        <tr>
+          <td width="25%" height="20%">Pedido de Ajuda</td>
+          <td width="25%">12/11/2021</td>
+          <td width="25%">Visualizar</td>
+          <td width="25%">Excluir</td>
+        </tr>
+        <tr>
+          <td width="25%" height="20%">Testemunho de abuso Policial</td>
+          <td width="25%">02/03/2022</td>
+          <td width="25%">Visualizar</td>
+          <td width="25%">Excluir</td>
+        </tr>
+      </table>
+      <br />
     </main>
-
     <footer>
       <div class="pos-footer">
         <p>
@@ -169,5 +133,15 @@
         </div>
       </div>
     </footer>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
   </body>
 </html>

@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
+    <title>Informações Úteis</title>
+    <link rel="stylesheet" href="../styles/informacao.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,16 +16,16 @@
 
   <body>
     <header class="header">
-      <img class="logo" src="assets/logo.png" alt="Logo do site" />
+      <img class="logo" src="../assets/logo.png" alt="Logo do site" />
 
       <h1><strong>FISCO TECH</strong></h1>
       <nav>
         <span>
-          <a href="./pages/login.html">
-            <img class="menu" src="./assets/avatar.png" alt="avatar" />
+          <a href="../pages/login.html">
+            <img class="menu" src="../assets/avatar.png" alt="avatar" />
           </a>
           <a href="#">
-            <img class="menu" src="./assets/menu.png" alt="menu" />
+            <img class="menu" src="../assets/menu.png" alt="menu" />
           </a>
         </span>
         <a href="#">
@@ -33,7 +33,7 @@
             idioma
             <img
               class="arrow"
-              src="./assets/arrow-botton.png"
+              src="../assets/arrow-botton.png"
               alt="seta pra abrir idiomas"
             />
           </button>
@@ -42,6 +42,9 @@
     </header>
 
     <main>
+      <h1 class="info">Informações úteis</h1>
+
+      <!-- seção com cards -->
       <section class="secao4" id="sobre">
         <div class="secao4-div">
           <div class="secao4-div-1">
@@ -94,6 +97,24 @@
                 width="100%"
                 height="80"
                 alt="imagem do card 3 html e css"
+              />
+              <h3>Como Contribuir</h3>
+              <p>
+                Saiba como você pode contribuir com nosso trabalho e ajudar a
+                manter esse serviço funcional e ativo.
+              </p>
+            </div>
+          </div>
+          <div class="secao4-div-4">
+            <div class="secao4-div-4-coluna">
+              <!-- elemento imagem, h3 e p -->
+              <img
+                decoding="async"
+                loading="lazy"
+                src="/assets/11.avif"
+                width="100%"
+                height="80"
+                alt="imagem do card 4 html e css"
               />
               <h3>Como Contribuir</h3>
               <p>
@@ -169,5 +190,15 @@
         </div>
       </div>
     </footer>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
   </body>
 </html>

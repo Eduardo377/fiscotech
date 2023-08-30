@@ -17,7 +17,7 @@
 
 .info {
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(227, 250, 145);
   border-style: hidden;
 }
 
@@ -106,4 +106,66 @@
   display: flex;
   padding: 10%;
   margin: 2%;
+}
+
+/*seção-4 style*/
+body {
+  margin: 0px;
+  font-family: helvetica;
+}
+
+.secao4 {
+  height: auto;
+  width: 100%;
+}
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  margin: auto;
+  align-items: stretch;
+  padding: 50px;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.secao4-div h3 {
+  padding: 10px 0px 0px 0px !important;
+}
+.secao4-div img {
+  width: 40%;
+  height: auto;
+}
+.secao4-div-1,
+.secao4-div-2,
+.secao4-div-3,
+.secao4-div-4 {
+  display: flex;
+  width: calc(100% / 4 - 200px);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 16px 0px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  background-color: rgb(245, 243, 134);
+  transition: all 0.5s ease;
+  z-index: 0;
+  justify-content: space-around;
+  box-shadow: 10px 20px grey;
+  border-top: 30px solid black;
+}
+.secao4-div-1:hover,
+.secao4-div-2:hover,
+.secao4-div-3:hover,
+.secao4-div-4:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .secao4-div-1,
+  .secao4-div-2,
+  .secao4-div-3,
+  .secao4-div-4 {
+    width: 100%;
+  }
 }
