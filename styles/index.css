@@ -1,11 +1,9 @@
-/* Main Content Styles */
 main {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-/* Container Styles */
 .conteiner {
     display: flex;
     flex-direction: column;
@@ -13,7 +11,6 @@ main {
     gap: 20px;
 }
 
-/* Container Box Styles */
 .conteiner-box {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +18,6 @@ main {
     gap: 20px;
 }
 
-/* Box Styles */
 .box {
     min-height: 200px;
     max-width: 250px;
@@ -49,16 +45,19 @@ main {
     color: #3d5a98; 
 }
 
-/* Registration Button Styles */
-.botao-registro {
+.registration-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-button {
+    border: none;
+    background: none;
+    cursor: pointer;
     margin-top: 100px;
-    max-width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
 }
 
 .registro {
     max-height: 150px;
-    max-width: 100%;
 }
