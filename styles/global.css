@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -15,24 +14,30 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
 
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     width: 250px;
     max-height: 100px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 strong {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     color: #000000;
 }
 
 nav {
-    display: inline;
-    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 a {
@@ -40,8 +45,10 @@ a {
 }
 
 .menu {
+    width: 45px;
+    max-height: 100px;
+    margin-left: 10px;
     margin: 5px;
-    width: 66px;
 }
 
 .idiomas {
@@ -51,7 +58,6 @@ a {
     border: none;
     width: 120px;
     height: 25px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -64,35 +70,62 @@ a {
     height: 15px;
 }
 
-
 footer {
     background-color: #EDBB00;
     display: flex;
-    gap: 15px;
+    align-items: center;
     height: 96px;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
+    left: 0;
 }
 
-.pos-footer {
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 300px;
+.footer-container{flex-wrap: wrap;    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.meio-footer{
-    margin-left: 450px;
+.footer-info {
+    min-width: 100px;
+    max-width: 200px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-social {
+    margin: 30px;
+}
+
+footer .footer-social {
+    position: fixed;
+    right: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.footer-orientacao {}
+.footer-social p {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100px;
+    max-width: 200px;
+}
 
-.footer-rede-social {
+.footer-social div {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .social {
