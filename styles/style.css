@@ -15,28 +15,7 @@ textarea {
     border-radius: 8px;
   }
 
-.botao {
-    background-color: #EDBB00;
-    border: none;
-    color: #000000;
-    padding: 20px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-}
-#button-center {
-    margin-top: 150px;  
-}
-
-.botao:hover{
-    background-color: rgb(101, 143, 58);
-    
-}
-
+  
 .botoes {
     background-color: #000000;
     border: none;
