@@ -2,41 +2,43 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../styles/login.css">
-    <link rel="stylesheet" href="../styles/global.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <header class="header">
-        <div class="logo-container">
-            <a href="../index.html" target="_blank" rel="noopener noreferrer">
-                <img class="logo" src="../assets/logo.png" alt="Logo do site" />
-            </a>
-        </div>
+        <a href="../index.html" target="_blank" rel="noopener noreferrer">
+            <img class="logo" src="../assets/logo.png" alt="Logo do site" />
+        </a>
+
         <a href="../index.html" target="_blank" alt="link pra home" rel="noopener noreferrer">
             <h1><strong>FISCO TECH</strong></h1>
         </a>
         <nav>
             <span>
-                <a href="#">
-                    <img class="menu" src="../assets/avatar.png" alt="avatar">
-                </a>
-                <a href="#">
-                    <img class="menu" src="../assets/menu.png" alt="menu">
-                </a>
-            </span>
+          <a href="#">
+            <img class="menu" src="../assets/avatar.png" alt="avatar" />
+          </a>
+          <a href="#">
+            <img class="menu" src="../assets/menu.png" alt="menu" />
+          </a>
+        </span>
             <a href="#">
                 <button class="idiomas">
-                        idioma
-                        <img class="arrow" src="../assets/arrow-botton.png" alt="seta pra abrir idiomas">
-                </button>
+            idioma
+            <img
+              class="arrow"
+              src="../assets/arrow-botton.png"
+              alt="seta pra abrir idiomas"
+            />
+          </button>
             </a>
         </nav>
     </header>
@@ -45,22 +47,22 @@
         <form class="conteiner">
             <div class="conteiner_input">
                 <label for="username"></label>
-                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="text" id="username" name="username" placeholder="Username" required />
                 <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="password" id="password" name="password" placeholder="Password" required />
             </div>
             <div class="conteiner_login">
                 <span>
-                    <label for="rememberMe">Remember me</label>
-                    <input type="checkbox" id="rememberMe" name="rememberMe" />
-                </span>
-                <button class="login"><a class="login-link" href="./Tela_Principal.html">Login</a></button>
+            <label for="rememberMe">Remember me</label>
+            <input type="checkbox" id="rememberMe" name="rememberMe" />
+          </span>
+                <button class="login">
+            <a class="login-link" href="./Tela_Principal.html">Login</a>
+          </button>
             </div>
             <span class="span">
-                <p>
-                    Forgot my password
-                </p>
-            </span>
+          <p>Forgot my password</p>
+        </span>
         </form>
     </main>
 
@@ -102,6 +104,16 @@
             </div>
         </section>
     </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
 </body>
 
 </html>
