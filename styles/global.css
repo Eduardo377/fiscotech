@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 .logo-container {
@@ -45,8 +46,8 @@ a {
 }
 
 .menu {
-    width: 45px;
-    max-height: 100px;
+    width: 32px;
+    max-height: 32px;
     margin-left: 10px;
     margin: 5px;
 }
@@ -56,7 +57,7 @@ a {
     color: #ffffff;
     border-radius: 15px;
     border: none;
-    width: 120px;
+    width: 90px;
     height: 25px;
     font-size: 14px;
     display: flex;
@@ -74,15 +75,17 @@ footer {
     background-color: #EDBB00;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 96px;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    left: 0;
 }
 
-.footer-container{flex-wrap: wrap;    flex-direction: row;
+.footer-container{
+    flex-wrap: wrap;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -100,6 +103,7 @@ footer {
 
 .footer-social {
     margin: 30px;
+    text-align: center;
 }
 
 footer .footer-social {
@@ -115,10 +119,10 @@ footer .footer-social {
 .footer-social p {
     margin-bottom: 10px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     min-width: 100px;
     max-width: 200px;
+    text-align: center;
 }
 
 .footer-social div {
