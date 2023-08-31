@@ -7,13 +7,13 @@
 
 body {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.) !important;
+    background-color: white;
     color: black;
 }
 
 .dark-mode {
     background-color: #333;
-    color: white;
+    color: blue;
 }
 
 
@@ -146,7 +146,15 @@ footer .footer-social {
 }
 
 .social {
-  height: 25px;
+  height: 32px;
+  transition: all 1.0s ease;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 100%; 
+}
+
+.social:hover {
+    transform: scale(2.1);
+    z-index: 1;
 }
 
 .enabled {
