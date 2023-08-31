@@ -25,6 +25,10 @@ strongTitle.textContent = "FISCO TECH";
 
 const navMenu = document.createElement("nav");
 const spanMenu = document.createElement("span");
+const lightDarkMode = document.createElement("img");
+lightDarkMode.src = "../assets/light-mode.png";
+lightDarkMode.classList.add("menu");
+lightDarkMode.setAttribute("id", "mode-toggle-btn");
 
 const loginLink = document.createElement("a");
 loginLink.href = "../pages/login.html";
@@ -60,6 +64,7 @@ menuLink.appendChild(menuImg);
 
 loginLink.appendChild(avatarImg);
 
+spanMenu.appendChild(lightDarkMode);
 spanMenu.appendChild(loginLink);
 spanMenu.appendChild(menuLink);
 
