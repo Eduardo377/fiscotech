@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/informacao.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Nova Solicitação</title>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <main>
+        <div align="center" style="background-color: MediumSlateBlue;">
+            <h1>Nova Solicitação</h1>
+            <h4>Preencha corretamente e com atenção os espaços abaixo para enviar uma nova solicitação</h4>
+        </div>
+        <div id="tudo">
+            <table align="center">
+                <td>
+                    <form id="caixaTexto" action="" align="center" width="100%">
+                        <label for="Text">Escreva seu relato:</label>
+                        <br>
+                        <textarea rows="10" cols="40" maxlength="500" placeholder="Descreva aqui todo o acorrido com a maior quantidade de detalhes possível."></textarea>
+                        <br>
+                </td>
+                <td align="center">
+                    <div id="form">
+                        <br>
+                        <label for="img">Inclua Imagens:</label>
+                        <input type="file" id="img" name="img" accept="image/*">
+                        <input type="submit">
+
+                        <br>
+                        <label for="video">Inclua Vídeos</label>
+                        <input type="hidden" id="video" name="MAX_FILE_SIZE" value="4194304" />
+                        <input type="file" />
+                        <input type="submit">
+                        <br>
+
+                        <label for="pdf">Inclua Documentos:</label>
+                        <input type="file" id="pdf" name="doc" accept="docs/*">
+                        <input type="submit">
+                        <br>
+                        <br>
+
+                    </div>
+                </td>
+            </table>
+            <br>
+            <br>
+        </div>
+
+
+        <div id="botao" align="center">
+            <label for="text">Se desejar, pode colocar um nome fictício.</label>
+            <textarea name="text" id="text" placeholder="Nome Fictício"></textarea>
+            <br>
+            <button>Enviar Solicitação</button>
+        </div>
+        </form>
+    </main>
+    <br>
+    <br>
+    <footer id="footer">
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script defer>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../script/header-script.js" defer></script>
+    <script src="../script/footer-script.js" defer></script>
+    <script src="../script/mode-script.js" defer></script>
+</body>
+
+</html>

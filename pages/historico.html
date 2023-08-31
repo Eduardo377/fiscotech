@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <title>Histórico de Solicitações</title>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <main>
+        <br />
+        <table style="background-color: MediumSlateBlue">
+            <td>
+                <h2>Histórico de Solicitações</h2>
+            </td>
+        </table>
+        <br />
+        <table align="center" width="80%" border="1px">
+            <tr align="center">
+                <td width="35%" height="20%"><b>Assunto</b></td>
+                <td width="20%"><b>Data</b></td>
+                <td width="15%"><b>Acesso</b></td>
+                <td width="10%"><b>Excluir</b></td>
+            </tr>
+            <tr>
+                <td width="25%" height="20%">Pedido de Ajuda</td>
+                <td width="25%">12/11/2021</td>
+                <td width="25%">Visualizar</td>
+                <td width="25%">Excluir</td>
+            </tr>
+            <tr>
+                <td width="25%" height="20%">Testemunho de abuso Policial</td>
+                <td width="25%">02/03/2022</td>
+                <td width="25%">Visualizar</td>
+                <td width="25%">Excluir</td>
+            </tr>
+        </table>
+        <br />
+    </main>
+    <footer id="footer">
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script defer>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../script/header-script.js" defer></script>
+    <script src="../script/footer-script.js" defer></script>
+    <script src="../script/mode-script.js" defer></script>
+</body>
+
+</html>

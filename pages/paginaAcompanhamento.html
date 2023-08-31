@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../pages/informacao.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Histórico de Solicitações</title>
+</head>
+
+<body>
+    <header class="header">
+    </header>
+    <main>
+        <br />
+        <div align="center" style="background-color: MediumSlateBlue;">
+            <h1>Acompanhe a Solicitação</h1>
+            <h4>Aqui é possível acompanhar o caminho de sua solicitação. Caso necessite fazer alguma observação nova, utilize a caixa de texto abaixo e inclua a informação ao processo.</h4>
+        </div>
+        <br />
+        <div align="center" id="botaoTudo">
+            <div id="botao1" style="background-color: rgb(45, 133, 192);">
+                <p><b>Envio da Solicitação</b></p>
+            </div>
+            <br>
+            <div id="botao2" style="background-color: rgb(35, 105, 151);">
+                <p><b>Solicitação encontrasse no setor de triagem</b></p>
+            </div>
+            <br>
+            <div id="botao3" style="background-color: rgb(44, 58, 190);">
+                <p><b>Solicitação encaminhada para a equipe responsável</b></p>
+            </div>
+            <br>
+            <div id="botao4" style="background-color: rgb(22, 35, 150);">
+                <p><b>Resposta à solicitação e possíveis encaminhamentos</b></p>
+            </div>
+
+        </div>
+
+        <div align="center">
+            <input type="range" min="0" max="1000" />
+        </div>
+        <br><br><br>
+        <div align="center">
+            <label for="texto">Novas informações:</label>
+            <br>
+            <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            <br>
+            <button>Enviar Solicitação</button>
+        </div>
+        <br>
+
+
+    </main>
+    <footer id="footer">
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script defer>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="../script/header-script.js" defer></script>
+    <script src="../script/footer-script.js" defer></script>
+    <script src="../script/mode-script.js" defer></script>
+</body>
+
+</html>

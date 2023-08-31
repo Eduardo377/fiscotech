@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: blue;
+}
+
+
+.header-container {
+    background-color: #EDBB00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    max-height: 100px;
+    margin-left: 10px;
+}
+
+strong {
+    font-size: 24px;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+    width: 32px;
+    max-height: 32px;
+    margin-left: 10px;
+    margin: 5px;
+}
+
+.idiomas {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.arrow {
+  height: 15px;
+}
+
+footer {
+    background-color: #EDBB00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-info {
+    min-width: 100px;
+    max-width: 200px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info a {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-social {
+    margin: 30px;
+    text-align: center;
+}
+
+footer .footer-social {
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social p {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.footer-social div {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social {
+  height: 32px;
+  transition: all 1.0s ease;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 100%; 
+}
+
+.social:hover {
+    transform: scale(2.1);
+    z-index: 1;
+}
+
+.enabled {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.access-button {
+    width: 30% !important;
+    border-radius: 50% !important;
+    border: 1px solid #ffffff9f !important;
+}

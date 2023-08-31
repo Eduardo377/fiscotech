@@ -1,0 +1,73 @@
+.secao4 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  margin: auto;
+  align-items: stretch;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.secao4-div h3 {
+  padding: 10px 0px 0px 0px !important;
+}
+.secao4-div img {
+  width: 40%;
+  height: auto;
+}
+.secao4-div-1,
+.secao4-div-2,
+.secao4-div-3 {
+  display: flex;
+  width: calc(120% / 3 - 200px);
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  background-color: rgb(245, 243, 134);
+  transition: all 0.5s ease;
+  /* z-index: 0; */
+  justify-content: space-between;
+  box-shadow: 10px 20px grey;
+  border-top: 30px solid black;
+}
+.secao4-div-1:hover,
+.secao4-div-2:hover,
+.secao4-div-3:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .secao4-div-1,
+  .secao4-div-2,
+  .secao4-div-3 {
+    width: 100%;
+  }
+}
+
+.registration-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+main section .registration-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.registro {
+    max-height: 150px;
+}
