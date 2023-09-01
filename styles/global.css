@@ -70,7 +70,14 @@ strong {
 }
 
 .checkbox-conteiner {
-    max-width: 42px;
+    max-width: 420px;
+    gap: 1rem;
+    display: flex;
+}
+
+.checkbox-conteiner p {
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .checkbox {
