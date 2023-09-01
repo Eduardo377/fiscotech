@@ -61,3 +61,9 @@ footerContainer.appendChild(footerInfo);
 footerContainer.appendChild(footerSocial);
 
 dynamicFooter.appendChild(footerContainer);
+
+const footerCopyright = document.createElement("div");
+footerCopyright.classList.add("footer-copyright");
+footerCopyright.setAttribute("id", "footer-copyright");
+footerCopyright.innerHTML = "&#169 2023 all right reserve";
+dynamicFooter.appendChild(footerCopyright);
