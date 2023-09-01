@@ -24,11 +24,21 @@ const strongTitle = document.createElement("strong");
 strongTitle.textContent = "FISCO TECH";
 
 const navMenu = document.createElement("nav");
+navMenu.classList.add("nav-menu");
 const spanMenu = document.createElement("span");
-const lightDarkMode = document.createElement("img");
-lightDarkMode.src = "../assets/light-mode.png";
-lightDarkMode.classList.add("menu");
-lightDarkMode.setAttribute("id", "mode-toggle-btn");
+spanMenu.classList.add("span-menu");
+
+const checkboxConteiner = document.createElement("div");
+checkboxConteiner.classList.add("checkbox-conteiner");
+checkboxConteiner.innerHTML = `<input type="checkbox" class="menu checkbox" id="checkbox-mode-toggle-btn">
+    <label class="label" for="checkbox-mode-toggle-btn">
+    <img class="moon" src="../assets/dark-mode.png" />
+    <img class="sun" src="../assets/light-mode.png" />
+        <div class="ball"></div>
+    </label>`;
+
+const divUtilitarios = document.createElement("div");
+divUtilitarios.classList.add("div-utility");
 
 const loginLink = document.createElement("a");
 loginLink.href = "../pages/login.html";
@@ -64,14 +74,16 @@ menuLink.appendChild(menuImg);
 
 loginLink.appendChild(avatarImg);
 
-spanMenu.appendChild(lightDarkMode);
 spanMenu.appendChild(loginLink);
 spanMenu.appendChild(menuLink);
 
 idiomaButton.appendChild(arrowImg);
 idiomaLink.appendChild(idiomaButton);
 
-navMenu.appendChild(idiomaLink);
+divUtilitarios.appendChild(idiomaLink);
+divUtilitarios.appendChild(checkboxConteiner);
+
+navMenu.appendChild(divUtilitarios);
 navMenu.appendChild(spanMenu);
 
 titleH1.appendChild(strongTitle);

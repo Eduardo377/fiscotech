@@ -2,17 +2,17 @@ function toggleDarkMode() {
     const body = document.body;
     body.classList.toggle('dark-mode');
     if (body.classList.contains('dark-mode')) {
-        lightDarkMode.src = "../assets/dark-mode.png";
+        inputLightDarkMode.href = sunIcon;
     } else {
-        lightDarkMode.src = "../assets/light-mode.png";
+        inputLightDarkMode.src = moonIcon;
     }
 }
 
-const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+// const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 
-if (prefersDarkMode.matches) {
-    toggleDarkMode();
-}
+// if (prefersDarkMode.matches) {
+//     toggleDarkMode();
+// }
 
-const modeToggleBtn = document.getElementById('mode-toggle-btn');
+const modeToggleBtn = document.getElementById('checkbox-mode-toggle-btn');
 modeToggleBtn.addEventListener('click', toggleDarkMode);
