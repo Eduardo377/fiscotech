@@ -1,18 +1,25 @@
-function toggleDarkMode() {
+function setTheme(theme) {
     const body = document.body;
-    body.classList.toggle('dark-mode');
-    if (body.classList.contains('dark-mode')) {
-        inputLightDarkMode.href = sunIcon;
+    body.classList.remove('dark-mode', 'light-mode');
+    body.classList.add(theme);
+}
+
+function toggleDarkMode() {
+    const checkbox = document.getElementById("checkbox-mode-toggle-btn");
+    if (checkbox.checked) {
+        setTheme('dark-mode');
     } else {
-        inputLightDarkMode.src = moonIcon;
+        setTheme('light-mode');
     }
 }
 
-// const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 
-// if (prefersDarkMode.matches) {
-//     toggleDarkMode();
-// }
+if (prefersDarkMode.matches) {
+    setTheme('dark-mode');
+} else {
+    setTheme('light-mode');
+}
 
 const modeToggleBtn = document.getElementById('checkbox-mode-toggle-btn');
-modeToggleBtn.addEventListener('click', toggleDarkMode);
+modeToggleBtn.addEventListener('change', toggleDarkMode);

@@ -15,8 +15,14 @@ body {
     transition: background 0.2s linear;
 }
 
-.dark-mode {
+body.light-mode{
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
     background-color: #333;
+    color: black;
 }
 
 .header-container {
@@ -108,12 +114,10 @@ strong {
 }
 
 .moon {
-    color: #f1c40f !important;
     max-width: 10px !important;
 }
 
 .sun {
-    color: #f39c12 !important;
     max-width: 12px !important;
 }
 
