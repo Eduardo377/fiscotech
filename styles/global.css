@@ -110,15 +110,23 @@ strong {
 }
 
 .checkbox:checked + .label .ball {
-    transform: translateX(12px);
+    transform: translateX(14px);
 }
 
 .moon {
     max-width: 10px !important;
+    position: absolute;
+    left: 3px;
 }
 
 .sun {
     max-width: 12px !important;
+    position: absolute;
+    right: 3px;
+}
+
+.hidden {
+    display: none !important;
 }
 
 a {
