@@ -30,6 +30,7 @@ spanMenu.classList.add("span-menu");
 
 const checkboxConteiner = document.createElement("div");
 checkboxConteiner.classList.add("checkbox-conteiner");
+
 checkboxConteiner.innerHTML = `
     <p>Tema</p>
     <input type="checkbox" class="menu checkbox" id="checkbox-mode-toggle-btn">
