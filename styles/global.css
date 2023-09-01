@@ -70,7 +70,14 @@ strong {
 }
 
 .checkbox-conteiner {
-    max-width: 42px;
+    max-width: 420px;
+    gap: 1rem;
+    display: flex;
+}
+
+.checkbox-conteiner p {
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .checkbox {
@@ -110,15 +117,23 @@ strong {
 }
 
 .checkbox:checked + .label .ball {
-    transform: translateX(12px);
+    transform: translateX(14px);
 }
 
 .moon {
     max-width: 10px !important;
+    position: absolute;
+    left: 3px;
 }
 
 .sun {
     max-width: 12px !important;
+    position: absolute;
+    right: 3px;
+}
+
+.hidden {
+    display: none !important;
 }
 
 a {

@@ -30,12 +30,16 @@ spanMenu.classList.add("span-menu");
 
 const checkboxConteiner = document.createElement("div");
 checkboxConteiner.classList.add("checkbox-conteiner");
-checkboxConteiner.innerHTML = `<input type="checkbox" class="menu checkbox" id="checkbox-mode-toggle-btn">
+
+checkboxConteiner.innerHTML = `
+    <p>Tema</p>
+    <input type="checkbox" class="menu checkbox" id="checkbox-mode-toggle-btn">
     <label class="label" for="checkbox-mode-toggle-btn">
     <img class="moon" src="../assets/dark-mode.png" />
     <img class="sun" src="../assets/light-mode.png" />
-        <div class="ball"></div>
-    </label>`;
+    <div class="ball"></div>
+    </label>
+    `;
 
 const divUtilitarios = document.createElement("div");
 divUtilitarios.classList.add("div-utility");
