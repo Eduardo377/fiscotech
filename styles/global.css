@@ -217,7 +217,13 @@ footer {
 
 .footer-info a {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer-info-Container p{
+    font-weight: 700;
+    font-size: 20px;
     color: #000;
 }
 
