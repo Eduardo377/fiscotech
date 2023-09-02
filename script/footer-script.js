@@ -18,13 +18,13 @@ lgpdText.innerText = "Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 
 const footerSocial = document.createElement("div");
 footerSocial.classList.add("footer-social");
 
-const footerSocialConteiner = document.createElement('div');
+const footerSocialContainer = document.createElement('div');
 
 const socialText = document.createElement("p");
 socialText.innerText = "Nos siga nas redes sociais";
 
-const socialIcons = document.createElement('div');
-
+const socialIcons1 = document.createElement('div');
+const socialIcons2 = document.createElement('div');
 
 const socialLinks = [
     { name: 'WhatsApp', icon: 'whatsapp-logo.png', link: 'https://www.whatsapp.com/?lang=pt_BR' },
@@ -35,35 +35,94 @@ const socialLinks = [
     { name: 'Facebook', icon: 'facebook-logo.png', link: 'https://www.facebook.com/' },
 ];
 
-socialLinks.forEach((social) => {
-    const socialLink = document.createElement('a');
-    socialLink.href = social.link;
-    socialLink.target = "_blank";
+const socialLinks1 = socialLinks.slice(0, 3);
+const socialLinks2 = socialLinks.slice(3, 6);
+
+socialLinks1.forEach((social) => {
+    const socialLink1 = document.createElement('a');
+    socialLink1.href = social.link;
+    socialLink1.target = "_blank";
 
     const socialImg = document.createElement('img');
     socialImg.className = 'social';
     socialImg.src = `../assets/${social.icon}`;
     socialImg.alt = social.name;
 
-    socialLink.appendChild(socialImg);
-    socialIcons.appendChild(socialLink);
+    socialLink1.appendChild(socialImg);
+    socialIcons1.appendChild(socialLink1);
+});
+socialLinks2.forEach((social) => {
+    const socialLink2 = document.createElement('a');
+    socialLink2.href = social.link;
+    socialLink2.target = "_blank";
+
+    const socialImg = document.createElement('img');
+    socialImg.className = 'social';
+    socialImg.src = `../assets/${social.icon}`;
+    socialImg.alt = social.name;
+
+    socialLink2.appendChild(socialImg);
+    socialIcons2.appendChild(socialLink2);
 });
 
-footerSocialConteiner.appendChild(socialText);
+const socialGrupIcons = document.createElement('div');
+socialGrupIcons.classList.add("social-grup-icons");
 
-footerSocial.appendChild(footerSocialConteiner);
+const footerCopyright = document.createElement("div");
 
-footerSocial.appendChild(socialIcons);
+footerCopyright.classList.add("footer-copyright");
+footerCopyright.setAttribute("id", "footer-copyright");
+
+footerSocialContainer.appendChild(socialText);
+
+footerSocial.appendChild(footerSocialContainer);
+
+socialGrupIcons.appendChild(socialIcons1);
+socialGrupIcons.appendChild(socialIcons2);
+footerSocial.appendChild(socialGrupIcons);
+
 footerInfo.appendChild(lgpdLink);
 lgpdLink.appendChild(lgpdText);
 
 footerContainer.appendChild(footerInfo);
 footerContainer.appendChild(footerSocial);
 
-dynamicFooter.appendChild(footerContainer);
+const items = [
+    { tipo: "&#169 2023 all right reserve" },
+    { tipo: "traco" },
+    { tipo: "termos", texto: "Termos" },
+    { tipo: "traco" },
+    { tipo: "privacidade", texto: "Privacidade" },
+    { tipo: "traco" },
+    { tipo: "regulamento", texto: "Regulamentos do programa" }
+];
 
-const footerCopyright = document.createElement("div");
-footerCopyright.classList.add("footer-copyright");
-footerCopyright.setAttribute("id", "footer-copyright");
-footerCopyright.innerHTML = "&#169 2023 all right reserve";
+items.forEach((item) => {
+
+    const pElement = document.createElement("p");
+    pElement.classList.add("info");
+
+    if (item.tipo === "&#169 2023 all right reserve") {
+
+        pElement.innerHTML = "&#169 2023 all right reserve";
+        footerCopyright.appendChild(pElement);
+
+    } else if (item.tipo === "traco") {
+
+        pElement.innerHTML = " · ";
+        pElement.classList.add("hidderResponsive");
+        footerCopyright.appendChild(pElement);
+
+    } else if (item.texto) {
+
+        const aElement = document.createElement("a");
+        aElement.classList.add("info");
+        aElement.href = "#";
+        aElement.innerText = item.texto;
+
+        footerCopyright.appendChild(aElement);
+    }
+});
+
+dynamicFooter.appendChild(footerContainer);
 dynamicFooter.appendChild(footerCopyright);
