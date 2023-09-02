@@ -68,6 +68,14 @@ main .secao4 .registration-button {
     align-self: center;
 }
 
+@media (max-width: 768px) {
+  main .secao4 .registration-button  {
+    margin-top: 0px;
+    display: flex;
+    align-self: center;
+  }
+}
+
 .registro {
     max-width: 150px;
 }
