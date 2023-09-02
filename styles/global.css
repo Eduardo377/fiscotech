@@ -215,10 +215,26 @@ footer {
     margin-left: 80px;
 }
 
+.footer-info a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
 .footer-social {
     max-width: 260px;
     text-align: center;
 }
+
+.social-grup-icons {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .social-grup-icons {
+    display: block;
+    }
+  }
 
 .social {
     width: 32px;
@@ -236,17 +252,47 @@ footer {
 .footer-copyright {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #000000;
     color: #ffffff;
     font-size: 0.9rem;
     padding: 1.5rem;
-    font-weight: 100;
+    /* font-weight: 100; */
     width: 100%;
     height: 3px;
     padding-top: 16px;
     text-align: center;
     flex-basis: calc(50% - 20px);
     text-align: center;
+
+    gap: 0.5rem;
+    
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+
+@media (max-width: 768px) {
+    .footer-copyright {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+.span-element {
+    display: flex;
+    gap: 0.5em;
+    textd
+}
+
+.info {
+    font-weight: 300;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .hidderResponsive {
+    display: none;
+  }
 }
 
 .enabled {
