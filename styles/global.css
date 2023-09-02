@@ -253,6 +253,22 @@ footer {
     .social-grup-icons {
     display: block;
     }
+}
+
+@media (max-width: 268px) {
+  .social-grup-icons {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 168px) {
+    .social-grup-icons {
+      display: flex;
+      flex-direction: row;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 
 .social {
