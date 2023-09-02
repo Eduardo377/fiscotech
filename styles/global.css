@@ -232,6 +232,12 @@ footer {
     font-weight: 700;
     font-size: 20px;
     color: #000;
+    transition: all 0.2s ease;
+}
+
+.footer-info-Container p:hover {
+    border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.2s linear;
 }
 
 .footer-social {
@@ -254,12 +260,13 @@ footer {
     height: 32px;
     margin: 5px;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.4);
-    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .social:hover {
     transform: scale(1.1);
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    opacity: 0.5;
 }
 
 .footer-copyright {
@@ -270,18 +277,13 @@ footer {
     color: #ffffff;
     font-size: 0.9rem;
     padding: 1.5rem;
-    /* font-weight: 100; */
     width: 100%;
     height: 3px;
     padding-top: 16px;
     text-align: center;
     flex-basis: calc(50% - 20px);
     text-align: center;
-
     gap: 0.5rem;
-    
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
 }
 
 @media (max-width: 768px) {
