@@ -46,7 +46,7 @@
   transform: scale(1.1);
   z-index: 1;
 }
-/*mobile*/
+
 @media (max-width: 768px) {
   .secao4-div-1,
   .secao4-div-2,
