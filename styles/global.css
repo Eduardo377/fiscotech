@@ -46,9 +46,16 @@ body.dark-mode {
 }
 
 strong {
-    font-size: 24px;
+    font-size: 70px;    
     color: #000000;
 }
+
+@media (max-width: 768px) {
+    strong  {
+    font-size: 24px;    
+    color: #000000;
+    }
+  }
 
 .nav-menu {
     display: flex;
