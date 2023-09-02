@@ -19,6 +19,7 @@ const footerSocial = document.createElement("div");
 footerSocial.classList.add("footer-social");
 
 const footerSocialContainer = document.createElement('div');
+footerSocialContainer.classList.add("footer-info-Container");
 
 const socialText = document.createElement("p");
 socialText.innerText = "Nos siga nas redes sociais";
