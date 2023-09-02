@@ -35,7 +35,7 @@
   border-radius: 15px;
   background-color: rgb(245, 243, 134);
   transition: all 0.5s ease;
-  /* z-index: 0; */
+  z-index: 0;
   justify-content: space-between;
   box-shadow: 10px 20px grey;
   border-top: 30px solid black;
@@ -62,11 +62,18 @@
     cursor: pointer;
   }
   
-main section .registration-button {
+main .secao4 .registration-button {
+    margin-top: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+  main .secao4 .registration-button  {
+    margin-top: 0px;
+    display: flex;
+    align-self: center;
+  }
 }
 
 .registro {
