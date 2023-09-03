@@ -52,6 +52,7 @@ socialLinks1.forEach((social) => {
     socialLink1.appendChild(socialImg);
     socialIcons1.appendChild(socialLink1);
 });
+
 socialLinks2.forEach((social) => {
     const socialLink2 = document.createElement('a');
     socialLink2.href = social.link;

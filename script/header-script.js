@@ -62,8 +62,8 @@ menuImg.classList.add("menu");
 menuImg.src = "../assets/menu.png";
 menuImg.alt = "menu";
 
-const idiomaLink = document.createElement("a");
-idiomaLink.href = "#";
+// const idiomaLink = document.createElement("a");
+// idiomaLink.href = "#";
 
 const idiomaButton = document.createElement("button");
 idiomaButton.innerText = "Idioma";
@@ -73,6 +73,119 @@ const arrowImg = document.createElement("img");
 arrowImg.src = "../assets/arrow-botton.png";
 arrowImg.alt = "seta pra abrir idiomas";
 arrowImg.classList.add("arrow");
+arrowImg.setAttribute("id", "arrow");
+
+const modalIdiomas = document.createElement("div");
+modalIdiomas.classList.add("hidden");
+modalIdiomas.classList.add("modal-idiomas");
+modalIdiomas.setAttribute("id", "idiomas");
+
+const modalIdiomasContent = document.createElement("div");
+modalIdiomasContent.classList.add("modal-idiomas-content");
+
+const h2Selected = document.createElement("h2");
+h2Selected.innerText = "Selecione um idioma:";
+
+const ulListIdiomas = document.createElement("ul");
+
+const linguas = [
+    { name: 'Português' },
+    { name: 'Inglês' },
+    { name: 'Espanhol' },
+    { name: 'Francês' },
+    { name: 'Alemão' },
+    { name: 'Italiano' },
+    { name: 'Holandês' },
+    { name: 'Sueco' },
+    { name: 'Norueguês' },
+    { name: 'Dinamarquês' },
+    { name: 'Finlandês' },
+    { name: 'Russo' },
+    { name: 'Chinês' },
+    { name: 'Japonês' },
+    { name: 'Coreano' },
+    { name: 'Árabe' },
+    { name: 'Turco' },
+    { name: 'Grego' },
+    { name: 'Hindi' },
+    { name: 'Bengali' },
+    { name: 'Tailandês' },
+    { name: 'Hebraico' },
+    { name: 'Polonês' },
+    { name: 'Checo' },
+    { name: 'Húngaro' },
+    { name: 'Romeno' },
+    { name: 'Búlgaro' },
+    { name: 'Ucraniano' },
+    { name: 'Croata' },
+    { name: 'Sérvio' },
+    { name: 'Esloveno' },
+    { name: 'Lituano' },
+    { name: 'Letão' },
+    { name: 'Estoniano' },
+    { name: 'Vietnamita' },
+    { name: 'Malaio' },
+    { name: 'Indonésio' },
+    { name: 'Tagalog' },
+    { name: 'Swahili' },
+    { name: 'Árabe' },
+    { name: 'Turco' },
+    { name: 'Hebraico' },
+    { name: 'Polonês' },
+    { name: 'Checo' },
+    { name: 'Húngaro' },
+    { name: 'Romeno' },
+    { name: 'Búlgaro' },
+    { name: 'Ucraniano' },
+    { name: 'Croata' },
+    { name: 'Sérvio' },
+    { name: 'Esloveno' },
+    { name: 'Lituano' },
+    { name: 'Letão' },
+    { name: 'Estoniano' },
+    { name: 'Vietnamita' },
+    { name: 'Malaio' },
+    { name: 'Indonésio' },
+    { name: 'Tagalog' },
+    { name: 'Swahili' },
+];
+
+
+linguas.forEach((idioma) => {
+    const linkLingua = document.createElement('a');
+    linkLingua.innerText = idioma.name;
+    linkLingua.href = "#";
+
+    const liListIdioma = document.createElement("li");
+    liListIdioma.appendChild(linkLingua);
+    ulListIdiomas.appendChild(liListIdioma);
+});
+
+const closeModalIdioma = document.createElement("button");
+closeModalIdioma.classList.add("closeModalIdiomas");
+closeModalIdioma.setAttribute("id", "close");
+closeModalIdioma.innerHTML = "X";
+
+arrowImg.addEventListener("click", () => {
+    modalIdiomas.classList.remove("hidden");
+    console.log(arrowImg);
+});
+
+function closeModal() {
+    modalIdiomas.classList.add("hidden");
+    console.log(arrowImg);
+}
+
+closeModalIdioma.addEventListener("click", () => {
+    closeModal();
+});
+
+
+window.addEventListener("click", (event) => {
+    if (event.target === modalIdiomas) {
+        closeModal();
+    }
+});
 
 menuLink.appendChild(menuImg);
 
@@ -81,14 +194,23 @@ loginLink.appendChild(avatarImg);
 spanMenu.appendChild(loginLink);
 spanMenu.appendChild(menuLink);
 
-idiomaButton.appendChild(arrowImg);
-idiomaLink.appendChild(idiomaButton);
 
-divUtilitarios.appendChild(idiomaLink);
+h2Selected.appendChild(ulListIdiomas);
+modalIdiomasContent.appendChild(h2Selected);
+modalIdiomasContent.appendChild(closeModalIdioma);
+modalIdiomas.appendChild(modalIdiomasContent);
+
+
+idiomaButton.appendChild(arrowImg);
+// idiomaLink.appendChild(idiomaButton);
+
+divUtilitarios.appendChild(idiomaButton);
 divUtilitarios.appendChild(checkboxConteiner);
 
 navMenu.appendChild(divUtilitarios);
 navMenu.appendChild(spanMenu);
+
+navMenu.appendChild(modalIdiomas);
 
 titleH1.appendChild(strongTitle);
 titleLink.appendChild(titleH1);
@@ -100,3 +222,30 @@ headerContainer.appendChild(titleLink);
 headerContainer.appendChild(navMenu);
 
 header.appendChild(headerContainer);
+
+// arrowImg.addEventListener("click", () => {
+//     arrowImg.innerHTML =
+//         `
+// <div></div>
+// <div class=" modal-idiomas" id="idiomas">
+// <div></div> class="modal-idiomas-content">
+// <h2>
+//     "Selecione um idioma:"
+//     <ul>
+//         <li>
+//             <a href="#" target="_blank">Português</a>
+//         </li>
+//         <li>
+//             <a href="#" target="_blank">Inglês</a>
+//         </li>
+//         <li>
+//             <a href="#" target="_blank">Espanhol</a>
+//         </li>
+//     </ul>
+// </h2>
+// <button class="closeModalIdiomas" id="close"></button>
+// </div>
+// </div>
+// `
+//     console.log(arrowImg);
+// });
