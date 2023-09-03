@@ -75,10 +75,6 @@ label{
     margin-bottom: 10px;
 }
 
-label:hover{
-    color: darkgreen;
-}
-
 label span:nth-child(2){
     color: black;
     background-color: rgb(221, 161, 10);
@@ -87,11 +83,8 @@ label span:nth-child(2){
     cursor: pointer ;
 }
 
-label span:nth-child(2):hover{
-    background-color: darkgreen;
-}
 
-.button-solicitacao{
+.botao{
     background-color: #EDBB00;
     color: #000000;
     padding: 20px 20px;
@@ -105,7 +98,9 @@ label span:nth-child(2):hover{
     border: 0;
 }
 
-.button-solicitacao:hover{
-    background-color: darkgreen;
-    color: white;
+
+
+.link-button-solicitacao{
+    color: #000000;
+    text-decoration: none;
 }
