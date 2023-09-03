@@ -5,8 +5,9 @@
     text-align: center;
 }
 
-.posicao2head {
+#posicao2head {
     text-align: center;
+    color: #edbb00;
 }
 
 .meiohead {
@@ -32,17 +33,15 @@
 
 .campo label {
     margin-bottom: 0, 4em;
-
+    color: #edbb00;
     display: block;
 }
 
 .campo input {
     width: 100%;
     padding: 10px;
-    border-top: none;
-    border-left: navajowhite;
-    border-right: navajowhite;
-    border-bottom: 2px solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 0 black;
 }
 
 .campo {
@@ -53,6 +52,8 @@ textarea {
     width: 100%;
     height: 10%;
     border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 0 black;
 }
 
 p small {
