@@ -10,7 +10,7 @@ logoLink.classList.add("logo");
 logoLink.alt = "link pra home";
 
 const logoImg = document.createElement("img");
-logoImg.src = "../assets/logo.png";
+logoImg.src = "../assets/logo.svg";
 logoImg.alt = "Logo do site";
 logoImg.classList.add("logo");
 
