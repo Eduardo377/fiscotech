@@ -1,62 +1,85 @@
-main {
-    display: inline;
+.secao4 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.conteiner {
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  margin: auto;
+  align-items: stretch;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.secao4-div h3 {
+  padding: 10px 0px 0px 0px !important;
+}
+.secao4-div img {
+  width: 40%;
+  height: auto;
+}
+.secao4-div-1,
+.secao4-div-2,
+.secao4-div-3 {
+  display: flex;
+  width: calc(120% / 3 - 200px);
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  background-color: rgb(245, 243, 134);
+  transition: all 0.5s ease;
+  z-index: 0;
+  justify-content: space-between;
+  box-shadow: 10px 20px grey;
+  border-top: 30px solid black;
+}
+.secao4-div-1:hover,
+.secao4-div-2:hover,
+.secao4-div-3:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.secao4-div-1-coluna, .secao4-div-2-coluna, .secao4-div-3-coluna p {
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .secao4-div-1,
+  .secao4-div-2,
+  .secao4-div-3 {
+    width: 100%;
+  }
+}
+
+.registration-button {
+    
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+main .secao4 .registration-button {
+    margin-top: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    align-self: center;
 }
-.conteiner-box {
+
+@media (max-width: 768px) {
+  main .secao4 .registration-button  {
+    margin-top: 0px;
     display: flex;
-    justify-content: space-between;
-}
-
-.box {
-    max-height: 250px;
-    min-height: 250px;
-    min-width: 30px;
-    max-width: 180px;
-    border: 7px solid #cdcdcd;
-    margin: 30px 60px;
-    text-align: center;
-    padding: 10px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #a91e30;
-}
-
-a {
-    text-decoration:none
-}
-.text-box {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.text-box-link-dark {
-    color: #000000; 
-}
-
-.text-box-link-2 {
-    color: #f35000; 
-}
-.text-box-link-3 {
-    color: #3d5a98; 
-}
-
-.botao-registro {
-    margin: 150px;
-    max-height: 0px;
-    max-width: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
+  }
 }
 
 .registro {
-    max-height: 190px;
-    max-width: 250px;
+    max-width: 150px;
 }
