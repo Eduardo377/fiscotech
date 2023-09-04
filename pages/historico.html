@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/historico.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,64 +22,82 @@
     
     <main>
 
-        <div>
+        <div class="title">
             <h1>Histórico de denuncias</h1>
         </div>
 
         <section>
             <div class="container">
                 <table>
+                <!-- Definir a quantidade de colunas da tabela -->
                     <tr>
-                        <th>Denuncia</th>
+                        <th>Denuncias</th>
                         <th>Data</th>
-                        <th>Consultar</th>
+                        <th>Verificar</th>
                         <th>Eliminar</th>
                     </tr>
-
+                
+                <!-- Definir a quantidade de linhas da tabela -->
                     <tr class="item">
                         <td>Corrupção</td>
-                        <td>10/03/2023</td>
-                        <td>
-                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" style="width: 50px; height: 50px;"></a>
+                        <td>10/05/2023</td>
+                        <td class="icone">
+                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            width= "50px" 
+                            height= "50px"></a>
                         </td>
-                        <td>
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" style="width: 50px;" height="50px"></a>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                            width = "50px" 
+                            height="50px"></a>
                         </td>
                     </tr>
 
                     <tr class="item">
-                        <td>Corrupção</td>
+                        <td>Esturção</td>
                         <td>10/03/2023</td>
-                        <td>
-                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" style="width: 50px; height: 50px;"></a>
-                        </td>
-                        <td>
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" style="width: 50px;" height="30px"></a>
-                        </td>
+
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
                     </tr>
 
                     <tr class="item">
                         <td>Abuso de poder</td>
                         <td>10/03/2023</td>
-                        <td>
-                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" style="width: 50px; height: 30px;"></a>
-                        </td>
-                        <td>
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" style="width: 50px;" height="30px"></a>
-                        </td>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
                     </tr>
 
                     <tr class="item">
-                        <td>Corrupção</td>
-                        <td>10/03/2023</td>
-                        <td>
-                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" style="width: 50px; height: 30px;"></a>
-                        </td>
-                        <td>
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" style="width: 50px;" height="30px"></a>
-                        </td>
+                        <td>Discriminação Racial</td>
+                        <td>20/08/2023</td>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
                     </tr>
-
                 </table>
             </div>
         </section>
