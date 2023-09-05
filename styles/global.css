@@ -348,7 +348,6 @@ footer {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-
 .social {
     width: 32px;
     height: 32px;
@@ -413,4 +412,27 @@ footer {
     width: 30% !important;
     border-radius: 50% !important;
     border: 1px solid #ffffff9f !important;
+}
+
+/* Padronização cores dos botões */
+
+.buttonlogin:hover{
+    background-color: rgb(101, 143, 58) ;
+}
+
+.botao:hover{
+    background-color: rgb(101, 143, 58); 
+}
+
+.button-solicitacao:hover{
+    background-color: rgb(101, 143, 58) ;
+    color: white;
+}
+/* 
+label:hover{
+    color: rgb(101, 143, 58);
+} */
+
+label span:nth-child(2):hover{
+    background-color: rgb(101, 143, 58);
 }
