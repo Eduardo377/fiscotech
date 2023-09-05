@@ -12,9 +12,9 @@ main {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: #c4c0bf;
-    width: 300px;
-    height: 300px;
+    background-color: #edba00b6;
+    width: 500px;
+    height: 400px;
     border-radius: 15px;
     border: none;
 }
@@ -25,6 +25,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+.conteiner_input input{
+    width: 400px;
 }
 
 #username {
@@ -44,23 +48,28 @@ main {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    color: #fff;
+    color: black;
 }
 
-.login {
-    background-color: #00b8a9;
+.buttonlogin {
+    background-color: #EDBB00;
+    color: #000000;
     padding: 8px 25px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
 }
 
+/* .buttonlogin:hover{
+    background-color: rgb(101, 143, 58) ;
+} */
+
 .login-link {
     text-decoration:none;
-    color: #fff;
+    color: black;
 }
 
 .span {
-    color: #fff;
+    color: black;
     width: 70%;
     display: flex;
     justify-content: flex-end;
