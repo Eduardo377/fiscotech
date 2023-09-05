@@ -39,35 +39,89 @@
 <body>
     <header class="header">
     </header>
+    
     <main>
-        <br />
-        <table style="background-color: MediumSlateBlue">
-            <td>
-                <h2>Histórico de Solicitações</h2>
-            </td>
-        </table>
-        <br />
-        <table align="center" width="80%" border="1px">
-            <tr align="center">
-                <td width="35%" height="20%"><b>Assunto</b></td>
-                <td width="20%"><b>Data</b></td>
-                <td width="15%"><b>Acesso</b></td>
-                <td width="10%"><b>Excluir</b></td>
-            </tr>
-            <tr>
-                <td width="25%" height="20%">Pedido de Ajuda</td>
-                <td width="25%">12/11/2021</td>
-                <td width="25%">Visualizar</td>
-                <td width="25%">Excluir</td>
-            </tr>
-            <tr>
-                <td width="25%" height="20%">Testemunho de abuso Policial</td>
-                <td width="25%">02/03/2022</td>
-                <td width="25%">Visualizar</td>
-                <td width="25%">Excluir</td>
-            </tr>
-        </table>
-        <br />
+
+        <div class="title">
+            <h1>Histórico de denuncias</h1>
+        </div>
+
+        <section>
+            <div class="container">
+                <table>
+                <!-- Definir a quantidade de colunas da tabela -->
+                    <tr>
+                        <th>Denúncias</th>
+                        <th>Data</th>
+                        <th>Verificar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                
+                <!-- Definir a quantidade de linhas da tabela -->
+                    <tr class="item">
+                        <td>Corrupção</td>
+                        <td>10/05/2023</td>
+                        <td class="icone">
+                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            width= "50px" 
+                            height= "50px"></a>
+                        </td>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                            width = "50px" 
+                            height="50px"></a>
+                        </td>
+                    </tr>
+
+                    <tr class="item">
+                        <td>Esturção</td>
+                        <td>10/03/2023</td>
+
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
+                    </tr>
+
+                    <tr class="item">
+                        <td>Abuso de poder</td>
+                        <td>10/03/2023</td>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
+                    </tr>
+
+                    <tr class="item">
+                        <td>Discriminação Racial</td>
+                        <td>20/08/2023</td>
+                        <td class="icone">
+                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                             width= "50px" 
+                             height= "50px"></a>
+                         </td>
+                         <td class="icone">
+                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             width = "50px" 
+                             height="50px"></a>
+                         </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    
     </main>
     <footer id="footer">
     </footer>

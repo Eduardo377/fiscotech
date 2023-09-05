@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/informacao.css">
     <link rel="stylesheet" href="../styles/global.css">
+<<<<<<< HEAD
 
+=======
+    <link rel="stylesheet" href="../styles/novaSolicitacao.css">
+>>>>>>> origin/eduardo
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -41,57 +45,74 @@
     <header class="header">
     </header>
     <main>
-        <div align="center" style="background-color: MediumSlateBlue;">
+        <div class="titleSolicitacao">
             <h1>Nova Solicitação</h1>
-            <h4>Preencha corretamente e com atenção os espaços abaixo para enviar uma nova solicitação</h4>
+            <!-- <p>Preecha corretamente e tenha a máxima atenção ao enviar a sua solicitação.</p> -->
         </div>
-        <div id="tudo">
-            <table align="center">
-                <td>
-                    <form id="caixaTexto" action="" align="center" width="100%">
-                        <label for="Text">Escreva seu relato:</label>
-                        <br>
-                        <textarea rows="10" cols="40" maxlength="500" placeholder="Descreva aqui todo o acorrido com a maior quantidade de detalhes possível."></textarea>
-                        <br>
-                </td>
-                <td align="center">
-                    <div id="form">
-                        <br>
-                        <label for="img">Inclua Imagens:</label>
-                        <input type="file" id="img" name="img" accept="image/*">
-                        <input type="submit">
+        <section>
+        
+            <form action="" class="form-solicitacao">
+                <div class="descricao">
+                    <h3>Escreva aqui a descrição da sua denúncia:</h3>
+                    <textarea name="" id="text-area" cols="30" rows="10" maxlength="5000" placeholder="Escreva aqui todo o ocorrido, seja mais claro possível!"></textarea>
+                </div>
 
-                        <br>
-                        <label for="video">Inclua Vídeos</label>
-                        <input type="hidden" id="video" name="MAX_FILE_SIZE" value="4194304" />
-                        <input type="file" />
-                        <input type="submit">
-                        <br>
+                <div>
 
-                        <label for="pdf">Inclua Documentos:</label>
-                        <input type="file" id="pdf" name="doc" accept="docs/*">
-                        <input type="submit">
-                        <br>
-                        <br>
+                    <div class="container-img" >
+                        <h3>Selecione as imagens Imagens:</h3>
+                        <input type="file" id="file" class="container-input">
+                        <label for="file">
+                            <span class="text-1">Selecionar imagem </span>
+                            <span>Procurar</span>
+                        </label>
 
+                        <input type="file" id="file" class="container-input">
+                        <label for="file">
+                            <span class="text-2">Selecionar imagem </span>
+                            <span>Procurar</span>
+                        </label>
+
+                        <input type="file" id="file" class="container-input">
+                        <label for="file">
+                            <span class="text-3">Selecionar imagem </span>
+                            <span>Procurar</span>
+                        </label>
+
+                        <input type="file" id="file" class="container-input">
+                        <label for="file">
+                            <span class="text-4">Selecionar imagem </span>
+                            <span>Procurar</span>
+                        </label>
                     </div>
-                </td>
-            </table>
-            <br>
-            <br>
-        </div>
+                </div>
+
+                <div class="container-docm-video">
+                    <h3>Selecione vídeo:</h3>
+                    <input type="file" id="file" class="container-input">
+                    <label for="file">
+                        <span class="text-1">Slecionar Vídeo</span>
+                        <span>Procurar</span>
+                    </label>
+
+                    <h3 id="title-docm">Selecione um Documento:</h3>
+                    <input type="file" id="file" class="container-input">
+                    <label for="file">
+                        <span class="text-2">Selecionar Documento </span>
+                        <span>Procurar</span>
+                    </label>
+                </div>
+            </form>
+
+                 
+            <div>
+                <button class="botao"><a href="../pages/Tela_Principal.html" class="link-button-solicitacao">Enviar Denuncia</a> </button>
+            </div>
 
 
-        <div id="botao" align="center">
-            <label for="text">Se desejar, pode colocar um nome fictício.</label>
-            <textarea name="text" id="text" placeholder="Nome Fictício"></textarea>
-            <br>
-            <button>Enviar Solicitação</button>
-        </div>
-        </form>
+        </section>
     </main>
-    <br>
-    <br>
+   
     <footer id="footer">
     </footer>
     <div vw class="enabled">
@@ -107,6 +128,7 @@
     <script src="../script/header-script.js" defer></script>
     <script src="../script/footer-script.js" defer></script>
     <script src="../script/mode-script.js" defer></script>
+    <script src="../script/Iteracao/novaSolicitacao.js" defer></script>
 </body>
 
 </html>
