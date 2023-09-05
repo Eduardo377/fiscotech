@@ -1,75 +1,60 @@
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
+h1{
+    text-align: center;
 }
 
-textarea {
-    margin-top: 20px;
-    width: 300px;
-    height: 150px;
+.meiohead {
+    width: 80%;
+    margin: 0 auto
+}
+
+.conteiner {
+    width: 50%;
+    margin: auto;
+
+}
+
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.campo {
+
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0, 4em;
+    color: #edbb00;
+    display: block;
+}
+
+.campo input {
+    width: 100%;
     padding: 10px;
-    font-size: 14px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-  }
-
-  
-.botoes {
-    background-color: #000000;
-    border: none;
-    color: #EDBB00;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px 0 black;
 }
 
-.save-button {
-    background-color: #A50044;;
-    border: none;
-    color: #EDBB00;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
+.campo {
+    margin: 1em 0;
 }
 
-.voltar-button {
-    background-color: #A50044;;
+.botaohead button {
+    background-color: #EDBB00;
+    color: #000000;
+    padding: 10px 20px;
     border: none;
-    color: #EDBB00;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 4px 2px;
+    border-radius: 6px;
+    text-transform: uppercase;
     cursor: pointer;
-    border-radius: 8px;
+    margin-bottom: 200px;
 }
 
-.label {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-right: 20px;
-    color: #EDBB00;
-    font-size: 30px;
-    font-weight: bold;
-  }
+.botaohead button:hover{
+    background-color: rgb(101, 143, 58);
+}
 
-.label:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
-#idtextarea {
-    display: flex;
-    justify-content: left;
+p small {
+    color: #ff0000;
 }
