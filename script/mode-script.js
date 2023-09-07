@@ -4,7 +4,6 @@ function setTheme(theme) {
     body.classList.add(theme);
 }
 
-
 function toggleDarkMode() {
     const checkbox = document.getElementById("checkbox-mode-toggle-btn");
     if (checkbox.checked) {
