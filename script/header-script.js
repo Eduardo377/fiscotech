@@ -10,7 +10,7 @@ logoLink.classList.add("logo");
 logoLink.alt = "link pra home";
 
 const logoImg = document.createElement("img");
-logoImg.src = "../assets/logo.png";
+logoImg.src = "../assets/logo.svg";
 logoImg.alt = "Logo do site";
 logoImg.classList.add("logo");
 
@@ -62,8 +62,8 @@ menuImg.classList.add("menu");
 menuImg.src = "../assets/menu.png";
 menuImg.alt = "menu";
 
-const idiomaLink = document.createElement("a");
-idiomaLink.href = "#";
+// const idiomaLink = document.createElement("a");
+// idiomaLink.href = "#";
 
 const idiomaButton = document.createElement("button");
 idiomaButton.innerText = "Idioma";
@@ -73,6 +73,7 @@ const arrowImg = document.createElement("img");
 arrowImg.src = "../assets/arrow-botton.png";
 arrowImg.alt = "seta pra abrir idiomas";
 arrowImg.classList.add("arrow");
+arrowImg.setAttribute("id", "arrow");
 
 menuLink.appendChild(menuImg);
 
@@ -82,9 +83,9 @@ spanMenu.appendChild(loginLink);
 spanMenu.appendChild(menuLink);
 
 idiomaButton.appendChild(arrowImg);
-idiomaLink.appendChild(idiomaButton);
+// idiomaLink.appendChild(idiomaButton);
 
-divUtilitarios.appendChild(idiomaLink);
+divUtilitarios.appendChild(idiomaButton);
 divUtilitarios.appendChild(checkboxConteiner);
 
 navMenu.appendChild(divUtilitarios);
@@ -100,3 +101,30 @@ headerContainer.appendChild(titleLink);
 headerContainer.appendChild(navMenu);
 
 header.appendChild(headerContainer);
+
+// arrowImg.addEventListener("click", () => {
+//     arrowImg.innerHTML =
+//         `
+// <div></div>
+// <div class=" modal-idiomas" id="idiomas">
+// <div></div> class="modal-idiomas-content">
+// <h2>
+//     "Selecione um idioma:"
+//     <ul>
+//         <li>
+//             <a href="#" target="_blank">Português</a>
+//         </li>
+//         <li>
+//             <a href="#" target="_blank">Inglês</a>
+//         </li>
+//         <li>
+//             <a href="#" target="_blank">Espanhol</a>
+//         </li>
+//     </ul>
+// </h2>
+// <button class="closeModalIdiomas" id="close"></button>
+// </div>
+// </div>
+// `
+//     console.log(arrowImg);
+// });

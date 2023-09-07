@@ -1,0 +1,118 @@
+const modalIdiomas = document.createElement("div");
+modalIdiomas.classList.add("hidden");
+modalIdiomas.classList.add("modal-idiomas");
+modalIdiomas.setAttribute("id", "idiomas");
+
+const modalIdiomasContent = document.createElement("div");
+modalIdiomasContent.classList.add("modal-idiomas-content");
+
+const h2Selected = document.createElement("h2");
+h2Selected.innerText = "Selecione um idioma:";
+
+const ulListIdiomas = document.createElement("ul");
+
+const linguas = [
+    { name: 'Português' },
+    { name: 'Inglês' },
+    { name: 'Espanhol' },
+    { name: 'Francês' },
+    { name: 'Alemão' },
+    { name: 'Italiano' },
+    { name: 'Holandês' },
+    { name: 'Sueco' },
+    { name: 'Norueguês' },
+    { name: 'Dinamarquês' },
+    { name: 'Finlandês' },
+    { name: 'Russo' },
+    { name: 'Chinês' },
+    { name: 'Japonês' },
+    { name: 'Coreano' },
+    { name: 'Árabe' },
+    { name: 'Turco' },
+    { name: 'Grego' },
+    { name: 'Hindi' },
+    { name: 'Bengali' },
+    { name: 'Tailandês' },
+    { name: 'Hebraico' },
+    { name: 'Polonês' },
+    { name: 'Checo' },
+    { name: 'Húngaro' },
+    { name: 'Romeno' },
+    { name: 'Búlgaro' },
+    { name: 'Ucraniano' },
+    { name: 'Croata' },
+    { name: 'Sérvio' },
+    { name: 'Esloveno' },
+    { name: 'Lituano' },
+    { name: 'Letão' },
+    { name: 'Estoniano' },
+    { name: 'Vietnamita' },
+    { name: 'Malaio' },
+    { name: 'Indonésio' },
+    { name: 'Tagalog' },
+    { name: 'Swahili' },
+    { name: 'Árabe' },
+    { name: 'Turco' },
+    { name: 'Hebraico' },
+    { name: 'Polonês' },
+    { name: 'Checo' },
+    { name: 'Húngaro' },
+    { name: 'Romeno' },
+    { name: 'Búlgaro' },
+    { name: 'Ucraniano' },
+    { name: 'Croata' },
+    { name: 'Sérvio' },
+    { name: 'Esloveno' },
+    { name: 'Lituano' },
+    { name: 'Letão' },
+    { name: 'Estoniano' },
+    { name: 'Vietnamita' },
+    { name: 'Malaio' },
+    { name: 'Indonésio' },
+    { name: 'Tagalog' },
+    { name: 'Swahili' },
+];
+
+
+linguas.forEach((idioma) => {
+    const linkLingua = document.createElement('a');
+    linkLingua.innerText = idioma.name;
+    linkLingua.href = "#";
+
+    const liListIdioma = document.createElement("li");
+    liListIdioma.appendChild(linkLingua);
+    ulListIdiomas.appendChild(liListIdioma);
+});
+
+const closeModalIdioma = document.createElement("button");
+closeModalIdioma.classList.add("closeModalIdiomas");
+closeModalIdioma.setAttribute("id", "close");
+closeModalIdioma.innerHTML = "X";
+
+arrowImg.addEventListener("click", () => {
+    modalIdiomas.classList.remove("hidden");
+    console.log(arrowImg);
+});
+
+function closeModal() {
+    modalIdiomas.classList.add("hidden");
+    console.log(arrowImg);
+}
+
+closeModalIdioma.addEventListener("click", () => {
+    closeModal();
+});
+
+
+window.addEventListener("click", (event) => {
+    if (event.target === modalIdiomas) {
+        closeModal();
+    }
+});
+
+h2Selected.appendChild(ulListIdiomas);
+modalIdiomasContent.appendChild(h2Selected);
+modalIdiomasContent.appendChild(closeModalIdioma);
+modalIdiomas.appendChild(modalIdiomasContent);
+
+navMenu.appendChild(modalIdiomas);
