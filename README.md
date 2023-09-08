@@ -58,84 +58,83 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 ## 👩‍💻 DEV's
 
-<div>
-    <div style="display: flex;">
-        <p>
-            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
-                <p>
-                    &nbsp&nbsp&nbsp
-                        Eduardo G.
-                    <br>
-                            &nbsp&nbsp&nbsp
-                        <a href="http://instagram.com/programi_">
-                            &nbsp;
-                        <a href="https://github.com/Eduardo377">
-                            GitHub
-                        </a>
-                            &nbsp;|&nbsp;
-                        <a href="https://www.linkedin.com/in/eduardogomes377/">
-                            LinkedIn
-                        </a>
-                    &nbsp;
-                </p>
-        </p>
-        <p>
-            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
-                <p>
-                    &nbsp&nbsp&nbsp
-                        Vaguinel M. J. Bonda
-                    <br>
-                            &nbsp&nbsp&nbsp
-                            &nbsp;
-                        <a href="https://github.com/VagMJB">
-                            GitHub
-                        </a>
-                            &nbsp;|&nbsp;
-                        <a href="https://www.linkedin.com/in/eduardogomes377/">
-                            LinkedIn
-                        </a>
-                    &nbsp;
-                </p>
-        </p>
-        <p>
-            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
-                <p>
-                    &nbsp&nbsp&nbsp
-                        Angelicar G.
-                    <br>
-                            &nbsp&nbsp&nbsp
-                        <a href="http://instagram.com/programi_">
-                            &nbsp;
-                        <a href="https://github.com/angelicarg">
-                            GitHub
-                        </a>
-                            &nbsp;|&nbsp;
-                        <a href="https://www.linkedin.com/in/eduardogomes377/">
-                            LinkedIn
-                        </a>
-                    &nbsp;
-                </p>
-        </p>
-        <p>
-            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
-                <p>
-                    &nbsp&nbsp&nbsp
-                        Ricardo Santos.
-                    <br>
-                            &nbsp&nbsp&nbsp
-                        <a href="http://instagram.com/programi_">
-                            &nbsp;
-                        <a href="https://github.com/RicardoSantos-Dev">
-                            GitHub
-                        </a>
-                            &nbsp;|&nbsp;
-                        <a href="https://www.linkedin.com/in/eduardogomes377/">
-                            LinkedIn
-                        </a>
-                    &nbsp;
-                </p>
-        </p>
-    </div>
+<div style="display: flex; flex-direction: row">
+    <p>
+        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
+            <p>
+                &nbsp&nbsp&nbsp
+                    Eduardo G.
+                <br>
+                        &nbsp&nbsp&nbsp
+                    <a href="http://instagram.com/programi_">
+                        &nbsp;
+                    <a href="https://github.com/Eduardo377">
+                        GitHub
+                    </a>
+                        &nbsp;|&nbsp;
+                    <a href="https://www.linkedin.com/in/eduardogomes377/">
+                        LinkedIn
+                    </a>
+                &nbsp;
+            </p>
+    </p>
+    <p>
+        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
+            <p>
+                &nbsp&nbsp&nbsp
+                    Vaguinel M. J. Bonda
+                <br>
+                        &nbsp&nbsp&nbsp
+                        &nbsp;
+                    <a href="https://github.com/VagMJB">
+                        GitHub
+                    </a>
+                        &nbsp;|&nbsp;
+                    <a href="https://www.linkedin.com/in/eduardogomes377/">
+                        LinkedIn
+                    </a>
+                &nbsp;
+            </p>
+    </p>
+    <p>
+        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
+            <p>
+                &nbsp&nbsp&nbsp
+                    Angelicar G.
+                <br>
+                        &nbsp&nbsp&nbsp
+                    <a href="http://instagram.com/programi_">
+                        &nbsp;
+                    <a href="https://github.com/angelicarg">
+                        GitHub
+                    </a>
+                        &nbsp;|&nbsp;
+                    <a href="https://www.linkedin.com/in/eduardogomes377/">
+                        LinkedIn
+                    </a>
+                &nbsp;
+            </p>
+    </p>
+    <p>
+        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
+            <p>
+                &nbsp&nbsp&nbsp
+                    Ricardo Santos.
+                <br>
+                        &nbsp&nbsp&nbsp
+                    <a href="http://instagram.com/programi_">
+                        &nbsp;
+                    <a href="https://github.com/RicardoSantos-Dev">
+                        GitHub
+                    </a>
+                        &nbsp;|&nbsp;
+                    <a href="https://www.linkedin.com/in/eduardogomes377/">
+                        LinkedIn
+                    </a>
+                &nbsp;
+            </p>
+    </p>
 </div>
+
 
 ---
