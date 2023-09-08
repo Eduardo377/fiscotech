@@ -132,3 +132,9 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             </p>
     </img>
 </div>
+
+## 🧾 Licença
+
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+---
