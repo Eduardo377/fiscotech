@@ -59,14 +59,13 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 ## 👩‍💻 DEV's
 
 <div style="display: flex; flex-direction: row">
-    <p>
-        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
+    <div style="display: flex;">
+        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
             <p>
-                &nbsp&nbsp&nbsp
+                &nbsp;&nbsp;&nbsp;
                     Eduardo G.
                 <br>
-                        &nbsp&nbsp&nbsp
-                    <a href="http://instagram.com/programi_">
+                        &nbsp;&nbsp;&nbsp;
                         &nbsp;
                     <a href="https://github.com/Eduardo377">
                         GitHub
@@ -77,14 +76,15 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                     </a>
                 &nbsp;
             </p>
-    </p>
-    <p>
-        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
+    </div>
+    &nbsp;
+    <div style="display: flex;">
+        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
             <p>
-                &nbsp&nbsp&nbsp
+                &nbsp;&nbsp;&nbsp;
                     Vaguinel M. J. Bonda
                 <br>
-                        &nbsp&nbsp&nbsp
+                        &nbsp;&nbsp;&nbsp;
                         &nbsp;
                     <a href="https://github.com/VagMJB">
                         GitHub
@@ -95,15 +95,15 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                     </a>
                 &nbsp;
             </p>
-    </p>
-    <p>
-        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
+    </div>
+    &nbsp;
+    <div style="display: flex;">
+        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
             <p>
-                &nbsp&nbsp&nbsp
+                &nbsp;&nbsp;&nbsp;
                     Angelicar G.
                 <br>
-                        &nbsp&nbsp&nbsp
-                    <a href="http://instagram.com/programi_">
+                        &nbsp;&nbsp;&nbsp;
                         &nbsp;
                     <a href="https://github.com/angelicarg">
                         GitHub
@@ -114,15 +114,15 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                     </a>
                 &nbsp;
             </p>
-    </p>
-    <p>
-        <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
+    </div>
+    &nbsp;
+    <div style="display: flex;">
+        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
             <p>
-                &nbsp&nbsp&nbsp
+                &nbsp;&nbsp;&nbsp;
                     Ricardo Santos.
                 <br>
-                        &nbsp&nbsp&nbsp
-                    <a href="http://instagram.com/programi_">
+                        &nbsp;&nbsp;&nbsp;
                         &nbsp;
                     <a href="https://github.com/RicardoSantos-Dev">
                         GitHub
@@ -133,7 +133,8 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                     </a>
                 &nbsp;
             </p>
-    </p>
+    </div>
+    &nbsp;
 </div>
 
 
