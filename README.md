@@ -73,10 +73,14 @@ Junte-se a nós nessa importante missão de combate ao abuso no setor público e
 O Fisco Tech não se responsabiliza por informações falsas fornecidas por usuários mal-intencionados. Todas as denúncias serão analisadas cuidadosamente, mas a plataforma não pode garantir a resolução de todos os casos.
 
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
-
 ## Desenvolvedores 👩‍💻👨‍💻
 
+<details>
+<summary>
+
 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
+
+</summary>
 
 <div style="display: flex; flex-direction: row">
     <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
@@ -132,10 +136,11 @@ Conheça a equipe de desenvolvedores por trás do Fisco Tech:
             </p>
     </img>
 </div>
-</div>
 
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
+</details>
+
