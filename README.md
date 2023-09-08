@@ -58,7 +58,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 ## 👩‍💻 DEV's
 
-<div style="display: flex; flex-direction: row">
+<div style="display: flex; flex-direction: row;">
     <div style="display: flex;">
         <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
             <p>
@@ -78,7 +78,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             </p>
     </div>
     &nbsp;
-    <div style="display: flex;">
+    <div style="display: flex; flex-direction: row;">
         <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
             <p>
                 &nbsp;&nbsp;&nbsp;
@@ -97,7 +97,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             </p>
     </div>
     &nbsp;
-    <div style="display: flex;">
+    <div style="display: flex; flex-direction: row;">
         <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
             <p>
                 &nbsp;&nbsp;&nbsp;
@@ -116,7 +116,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             </p>
     </div>
     &nbsp;
-    <div style="display: flex;">
+    <div style="display: flex; flex-direction: row;">
         <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
             <p>
                 &nbsp;&nbsp;&nbsp;
