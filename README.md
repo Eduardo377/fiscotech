@@ -1,8 +1,4 @@
-# Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso no Setor de Transporte
-
 [![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)](https://github.com/Eduardo377/fiscotech)
-
-<br>
 
 <table style="width:100%">
   <tr>
