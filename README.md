@@ -78,7 +78,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 ##### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
 
 
-<div style="display: flex; flex-direction: row; height:90;">
+<div height="20" width="3000" style="display: flex; flex-direction: row;">
     <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
         <p>
                 Eduardo G.
