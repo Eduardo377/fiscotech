@@ -8,18 +8,19 @@
   </tr>
   <tr>
     
-# Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso no Setor de Transporte
+# Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso por agentes públicos.
     
+    Uma plataforma online para denúncias de abuso no setor de transporte e apoio às vítimas.
   </tr>
 </table>
 
 ## Visão Geral 🌐
 
-O Fisco Tech é uma plataforma online cujo principal objetivo é coletar denúncias de abuso de agentes públicos no setor de transporte e encaminhá-las às instituições responsáveis para apuração. Além disso, a plataforma visa fornecer orientações e apoio às vítimas de possíveis abusos, buscando justiça e segurança para aqueles que denunciam. Para garantir a segurança dos usuários, quando possível, serão utilizadas identidades fictícias para preservar e resguardar o direito de denúncia.
+O Fisco Tech é uma plataforma online cujo principal objetivo é coletar denúncias de abuso de agentes públicos e encaminhá-las às instituições responsáveis para apuração. Além disso, a plataforma visa fornecer orientações e apoio às vítimas de possíveis abusos, buscando justiça e segurança para aqueles que denunciam. Para garantir a segurança dos usuários, quando possível, serão utilizadas identidades fictícias para preservar e resguardar o direito de denúncia.
 
 ## Missão 🚀
 
-Nossa missão é apoiar pessoas em diferentes países parceiros, oferecendo-lhes uma maneira fácil, acessível e segura de denunciar abusos no setor de transporte. Acreditamos que a maioria das vítimas de abusos ocorre em regiões de vulnerabilidade social e, portanto, buscamos ampliar a divulgação do site em todas as redes sociais e manter um canal ativo de acesso gratuito para tornar o serviço amplamente acessível.
+Nossa missão é apoiar pessoas em diferentes países parceiros, oferecendo-lhes uma maneira fácil, acessível e segura de denunciar abusos no setor público. Acreditamos que a maioria das vítimas de abusos ocorre em regiões de vulnerabilidade social e, portanto, buscamos ampliar a divulgação do site em todas as redes sociais e manter um canal ativo de acesso gratuito para tornar o serviço amplamente acessível.
 
 ## Como Funciona 🛠️
 
@@ -65,7 +66,7 @@ Se você compartilha de nossa missão e deseja contribuir para o Fisco Tech, exi
 
 4. **Feedback**: Fornecer feedback sobre o serviço e sugestões de melhorias é sempre bem-vindo e nos ajuda a aprimorar nossa plataforma.
 
-Junte-se a nós nessa importante missão de combate ao abuso no setor de transporte e apoio às vítimas. Sua participação faz a diferença!
+Junte-se a nós nessa importante missão de combate ao abuso no setor público e apoio às vítimas. Sua participação faz a diferença!
 
 ## Aviso Legal ⚖️
 
