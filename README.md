@@ -58,10 +58,9 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 ## 👩‍💻 DEV's
 
-<table>
+<table style="width:100%; display: flex; flex-direction: row;">
     <tr>
         <td>
-            <div style="display: flex; flex-direction: row;">
                 <div style="display: flex;">
                     <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
                         <p>
@@ -138,10 +137,12 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                         </p>
                 </div>
                 &nbsp;
-            </div>
         </td>
     </tr>
 </table>
 
+## 📝 Licença
+
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE.md) para obter mais detalhes.
 
 ---
