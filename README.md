@@ -75,10 +75,10 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
 ## Desenvolvedores 👩‍💻👨‍💻
 
-##### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
+#### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
 
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex-box; flex-direction: row;">
     <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
         <p>
                 Eduardo G.
