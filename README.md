@@ -76,9 +76,11 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 ## Desenvolvedores 👩‍💻👨‍💻
 
 <details>
-<summary>
+    <summary>
 
-Conheça a equipe de desenvolvedores por trás do Fisco Tech:
+
+### Conheça a equipe de desenvolvedores por trás do Fisco Tech:
+
 
 </summary>
 
@@ -137,10 +139,10 @@ Conheça a equipe de desenvolvedores por trás do Fisco Tech:
     </img>
 </div>
 
+</details>
+
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
-</details>
-
