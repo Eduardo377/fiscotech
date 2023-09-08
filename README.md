@@ -133,4 +133,8 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 </img>
 </div>
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> b8d1f85baca7359bb38e4ef279fce2922674af45
