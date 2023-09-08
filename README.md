@@ -132,8 +132,6 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             </p>
     </img>
 </div>
-
-<table style="display: flex; flex-direction: row">
   <tr>
     <img style="margin: 10px; display: flex; flex-direction: row" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
         <p>
