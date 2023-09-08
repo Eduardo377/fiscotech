@@ -58,84 +58,90 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 ## 👩‍💻 DEV's
 
-<div style="display: flex; flex-direction: row;">
-    <div style="display: flex;">
-        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
-            <p>
-                &nbsp;&nbsp;&nbsp;
-                    Eduardo G.
-                <br>
-                        &nbsp;&nbsp;&nbsp;
-                        &nbsp;
-                    <a href="https://github.com/Eduardo377">
-                        GitHub
-                    </a>
-                        &nbsp;|&nbsp;
-                    <a href="https://www.linkedin.com/in/eduardogomes377/">
-                        LinkedIn
-                    </a>
+<table>
+    <tr>
+        <td>
+            <div style="display: flex; flex-direction: row;">
+                <div style="display: flex;">
+                    <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;
+                                Eduardo G.
+                            <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    &nbsp;
+                                <a href="https://github.com/Eduardo377">
+                                    GitHub
+                                </a>
+                                    &nbsp;|&nbsp;
+                                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                                    LinkedIn
+                                </a>
+                            &nbsp;
+                        </p>
+                </div>
                 &nbsp;
-            </p>
-    </div>
-    &nbsp;
-    <div style="display: flex; flex-direction: row;">
-        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
-            <p>
-                &nbsp;&nbsp;&nbsp;
-                    Vaguinel M. J. Bonda
-                <br>
-                        &nbsp;&nbsp;&nbsp;
-                        &nbsp;
-                    <a href="https://github.com/VagMJB">
-                        GitHub
-                    </a>
-                        &nbsp;|&nbsp;
-                    <a href="https://www.linkedin.com/in/eduardogomes377/">
-                        LinkedIn
-                    </a>
+                <div style="display: flex; flex-direction: row;">
+                    <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;
+                                Vaguinel M. J. Bonda
+                            <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    &nbsp;
+                                <a href="https://github.com/VagMJB">
+                                    GitHub
+                                </a>
+                                    &nbsp;|&nbsp;
+                                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                                    LinkedIn
+                                </a>
+                            &nbsp;
+                        </p>
+                </div>
                 &nbsp;
-            </p>
-    </div>
-    &nbsp;
-    <div style="display: flex; flex-direction: row;">
-        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
-            <p>
-                &nbsp;&nbsp;&nbsp;
-                    Angelicar G.
-                <br>
-                        &nbsp;&nbsp;&nbsp;
-                        &nbsp;
-                    <a href="https://github.com/angelicarg">
-                        GitHub
-                    </a>
-                        &nbsp;|&nbsp;
-                    <a href="https://www.linkedin.com/in/eduardogomes377/">
-                        LinkedIn
-                    </a>
+                <div style="display: flex; flex-direction: row;">
+                    <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;
+                                Angelicar G.
+                            <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    &nbsp;
+                                <a href="https://github.com/angelicarg">
+                                    GitHub
+                                </a>
+                                    &nbsp;|&nbsp;
+                                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                                    LinkedIn
+                                </a>
+                            &nbsp;
+                        </p>
+                </div>
                 &nbsp;
-            </p>
-    </div>
-    &nbsp;
-    <div style="display: flex; flex-direction: row;">
-        <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
-            <p>
-                &nbsp;&nbsp;&nbsp;
-                    Ricardo Santos.
-                <br>
-                        &nbsp;&nbsp;&nbsp;
-                        &nbsp;
-                    <a href="https://github.com/RicardoSantos-Dev">
-                        GitHub
-                    </a>
-                        &nbsp;|&nbsp;
-                    <a href="https://www.linkedin.com/in/eduardogomes377/">
-                        LinkedIn
-                    </a>
+                <div style="display: flex; flex-direction: row;">
+                    <img margin=10 width=80 height="80" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;
+                                Ricardo Santos.
+                            <br>
+                                    &nbsp;&nbsp;&nbsp;
+                                    &nbsp;
+                                <a href="https://github.com/RicardoSantos-Dev">
+                                    GitHub
+                                </a>
+                                    &nbsp;|&nbsp;
+                                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                                    LinkedIn
+                                </a>
+                            &nbsp;
+                        </p>
+                </div>
                 &nbsp;
-            </p>
-    </div>
-    &nbsp;
-</div>
+            </div>
+        </td>
+    </tr>
+</table>
 
 
 ---
