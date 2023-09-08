@@ -401,18 +401,6 @@ footer {
   }
 }
 
-.enabled {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-}
-
-.access-button {
-    width: 30% !important;
-    border-radius: 50% !important;
-    border: 1px solid #ffffff9f !important;
-}
-
 /* Padronização cores dos botões */
 
 .buttonlogin:hover{
