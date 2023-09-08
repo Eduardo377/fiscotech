@@ -75,25 +75,19 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
 ## Desenvolvedores 👩‍💻👨‍💻
 
-<details>
-    <summary>
+##### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
 
 
-### Conheça a equipe de desenvolvedores por trás do Fisco Tech:
-
-
-</summary>
-
-<div style="display: flex; flex-direction: row">
+<div height="90" style="display: flex; flex-direction: row;">
     <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
         <p>
                 Eduardo G.
             <br>
-                <a href="https://github.com/Eduardo377/">
+                <a href="https://github.com/Eduardo377/" target="_blank">
                     GitHub
                 </a>
                 <br>
-                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
                     LinkedIn
                 </a>
         </p>
@@ -102,11 +96,11 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
         <p>
                 Vaguinel M. J. Bonda
             <br>
-            <a href="https://github.com/VagMJB/">
+            <a href="https://github.com/VagMJB/" target="_blank">
                 GitHub
             </a>
                 <br>
-            <a href="https://www.linkedin.com/in/eduardogomes377/">
+            <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
                 LinkedIn
             </a>
         </p>
@@ -115,11 +109,11 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
         <p>
                 Angelicar G.
                 <br>
-                <a href="https://github.com/angelicarg/">
+                <a href="https://github.com/angelicarg/" target="_blank">
                     GitHub
                 </a>
                 <br>
-                <a href="https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/">
+                <a href="https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/" target="_blank">
                     LinkedIn
                 </a>
             </p>
@@ -128,18 +122,16 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             <p>
                     Ricardo Santos.
                 <br>
-                    <a href="https://github.com/RicardoSantos-Dev/">
+                    <a href="https://github.com/RicardoSantos-Dev/" target="_blank">
                         GitHub
                     </a>
                 <br>
-                    <a href="https://www.linkedin.com/in/eduardogomes377/">
+                    <a href="https://www.linkedin.com/in/ricardo-silva-santos-2b7602166/" target="_blank">
                         LinkedIn
                     </a>
             </p>
     </img>
 </div>
-
-</details>
 
 ## Licença 📜
 
