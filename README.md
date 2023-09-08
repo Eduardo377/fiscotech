@@ -1,6 +1,6 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge"/>
 
-<br>
+<br><br>
 
 <img alt="Fisco Tech Logo" height="80" src="./assets/logo.ico"> 
 
@@ -63,7 +63,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 ## 👩‍💻 DEV's
 
 <div style="display: flex;">
-<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/35434628?v=4" alt="html5" height="60">
+<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/35434628?v=4" height="60">
             <p>
                 &nbsp;&nbsp;&nbsp;
                     Eduardo G.
@@ -80,7 +80,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                 &nbsp;
             </p>
 </img>
-<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4" alt="css3" height="60">
+<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4" height="60">
     <p>
         &nbsp;&nbsp;&nbsp;
             Vaguinel M. J. Bonda
@@ -97,7 +97,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             &nbsp;
     </p>
 </img>
-<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4" alt="react" height="60" >
+<img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4" height="60" >
     <p>
         &nbsp;&nbsp;&nbsp;
             Angelicar G.
@@ -133,8 +133,4 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 </img>
 </div>
 
-<<<<<<< HEAD
 ---
-=======
----
->>>>>>> b8d1f85baca7359bb38e4ef279fce2922674af45
