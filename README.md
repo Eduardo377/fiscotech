@@ -10,7 +10,7 @@
     
 # Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso por agentes públicos.
     
-    Uma plataforma online para denúncias de abuso no setor de transporte e apoio às vítimas.
+    Uma plataforma online para denúncias de abuso no setor públicos e apoio às vítimas.
   </tr>
 </table>
 
@@ -42,7 +42,7 @@ O usuário poderá acompanhar o andamento de sua denúncia em tempo real, garant
 
 ## Parcerias Internacionais 🌍
 
-Nosso serviço não se limita a um único país, pois acreditamos que a luta contra o abuso no setor de transporte é uma causa global. Por esse motivo, estabelecemos parcerias com diversos países para garantir que pessoas de diferentes lugares possam usar nossa plataforma de maneira fácil e acessível.
+Nosso serviço não se limita a um único país, pois acreditamos que a luta contra o abuso no setor públicos é uma causa global. Por esse motivo, estabelecemos parcerias com diversos países para garantir que pessoas de diferentes lugares possam usar nossa plataforma de maneira fácil e acessível.
 
 ## Apoie-nos 🙏
 
