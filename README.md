@@ -1,3 +1,5 @@
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge"/>
+
 # Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso no Setor de Transporte
 
 ![Fisco Tech Logo]("./assets/logo.png")
@@ -53,3 +55,87 @@ Junte-se a nós nessa importante missão de combate ao abuso no setor de transpo
 O Fisco Tech não se responsabiliza por informações falsas fornecidas por usuários mal-intencionados. Todas as denúncias serão analisadas cuidadosamente, mas a plataforma não pode garantir a resolução de todos os casos.
 
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
+
+## 👩‍💻 DEV's
+
+<div>
+    <div style="display: flex;">
+        <p>
+            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/35434628?v=4"/>
+                <p>
+                    &nbsp&nbsp&nbsp
+                        Eduardo G.
+                    <br>
+                            &nbsp&nbsp&nbsp
+                        <a href="http://instagram.com/programi_">
+                            &nbsp;
+                        <a href="https://github.com/Eduardo377">
+                            GitHub
+                        </a>
+                            &nbsp;|&nbsp;
+                        <a href="https://www.linkedin.com/in/eduardogomes377/">
+                            LinkedIn
+                        </a>
+                    &nbsp;
+                </p>
+        </p>
+        <p>
+            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/104402902?v=4"/>
+                <p>
+                    &nbsp&nbsp&nbsp
+                        Vaguinel M. J. Bonda
+                    <br>
+                            &nbsp&nbsp&nbsp
+                            &nbsp;
+                        <a href="https://github.com/VagMJB">
+                            GitHub
+                        </a>
+                            &nbsp;|&nbsp;
+                        <a href="https://www.linkedin.com/in/eduardogomes377/">
+                            LinkedIn
+                        </a>
+                    &nbsp;
+                </p>
+        </p>
+        <p>
+            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/108835675?v=4"/>
+                <p>
+                    &nbsp&nbsp&nbsp
+                        Angelicar G.
+                    <br>
+                            &nbsp&nbsp&nbsp
+                        <a href="http://instagram.com/programi_">
+                            &nbsp;
+                        <a href="https://github.com/angelicarg">
+                            GitHub
+                        </a>
+                            &nbsp;|&nbsp;
+                        <a href="https://www.linkedin.com/in/eduardogomes377/">
+                            LinkedIn
+                        </a>
+                    &nbsp;
+                </p>
+        </p>
+        <p>
+            <img align=left margin=10 width=80 style="border-radius: 50px; border: 5px solid;" src="https://avatars.githubusercontent.com/u/101869721?v=4"/>
+                <p>
+                    &nbsp&nbsp&nbsp
+                        Ricardo Santos.
+                    <br>
+                            &nbsp&nbsp&nbsp
+                        <a href="http://instagram.com/programi_">
+                            &nbsp;
+                        <a href="https://github.com/RicardoSantos-Dev">
+                            GitHub
+                        </a>
+                            &nbsp;|&nbsp;
+                        <a href="https://www.linkedin.com/in/eduardogomes377/">
+                            LinkedIn
+                        </a>
+                    &nbsp;
+                </p>
+        </p>
+    </div>
+</div>
+
+---
