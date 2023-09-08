@@ -63,14 +63,14 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 ## 👩‍💻 DEV's
 
 <div style="display: flex;">
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/35434628?v=4" height="60">
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
         <p>
             &nbsp;&nbsp;&nbsp;
                 Eduardo G.
             <br>
                     &nbsp;&nbsp;&nbsp;
                     &nbsp;
-                <a href="https://github.com/Eduardo377">
+                <a href="https://github.com/Eduardo377/">
                     GitHub
                 </a>
                     &nbsp;|&nbsp;
@@ -80,14 +80,14 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
             &nbsp;
         </p>
     </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4" height="60">
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4/" height="60">
         <p>
             &nbsp;&nbsp;&nbsp;
                 Vaguinel M. J. Bonda
             <br>
                 &nbsp;&nbsp;&nbsp;
                 &nbsp;
-            <a href="https://github.com/VagMJB">
+            <a href="https://github.com/VagMJB/">
                 GitHub
             </a>
                 &nbsp;|&nbsp;
@@ -97,31 +97,31 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
                 &nbsp;
         </p>
     </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4" height="60" >
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4/" height="60" >
         <p>
             &nbsp;&nbsp;&nbsp;
                 Angelicar G.
                 <br>
                     &nbsp;&nbsp;&nbsp;
                         &nbsp;
-                <a href="https://github.com/angelicarg">
+                <a href="https://github.com/angelicarg/">
                     GitHub
                 </a>
                     &nbsp;|&nbsp;
-                <a href="https://www.linkedin.com/in/eduardogomes377/">
+                <a href="https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/">
                     LinkedIn
                 </a>
                     &nbsp;
             </p>
     </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/101869721?v=4" height="60" >
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/101869721?v=4/" height="60" >
             <p>
                 &nbsp;&nbsp;&nbsp;
                     Ricardo Santos.
                 <br>
                         &nbsp;&nbsp;&nbsp;
                         &nbsp;
-                    <a href="https://github.com/RicardoSantos-Dev">
+                    <a href="https://github.com/RicardoSantos-Dev/">
                         GitHub
                     </a>
                         &nbsp;|&nbsp;
