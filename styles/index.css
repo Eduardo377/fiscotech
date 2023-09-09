@@ -1,3 +1,17 @@
+#sobreNos {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: nowrap;*/
+  align-items: center;
+  text-align: justify;
+  /*margin: 10%;*/
+  padding: 20px;
+  background-color: rgb(224, 236, 181);
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .secao4 {
   height: auto;
   width: 100%;
