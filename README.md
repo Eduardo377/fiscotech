@@ -1,40 +1,60 @@
-# Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso no Setor de Transporte
+[![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)](https://github.com/Eduardo377/fiscotech)
 
-![Fisco Tech Logo]("./assets/logo.png")
+<table style="width:100%">
+  <tr>
+    <td>
+        <img alt="Fisco Tech Logo" height="80" src="./assets/logo.ico"/>
+    </td>
+  </tr>
+  <tr>
+    
+# Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso por agentes públicos.
+    
+    Uma plataforma online para denúncias de abuso no setor públicos e apoio às vítimas.
+  </tr>
+</table>
 
-## Visão Geral
+## Visão Geral 🌐
 
-O Fisco Tech é uma plataforma online cujo principal objetivo é coletar denúncias de abuso de agentes públicos no setor de transporte e encaminhá-las às instituições responsáveis para apuração. Além disso, a plataforma visa fornecer orientações e apoio às vítimas de possíveis abusos, buscando justiça e segurança para aqueles que denunciam. Para garantir a segurança dos usuários, quando possível, serão utilizadas identidades fictícias para preservar e resguardar o direito de denúncia.
+O Fisco Tech é uma plataforma online cujo principal objetivo é coletar denúncias de abuso de agentes públicos e encaminhá-las às instituições responsáveis para apuração. Além disso, a plataforma visa fornecer orientações e apoio às vítimas de possíveis abusos, buscando justiça e segurança para aqueles que denunciam. Para garantir a segurança dos usuários, quando possível, serão utilizadas identidades fictícias para preservar e resguardar o direito de denúncia.
 
-## Missão
+## Missão 🚀
 
-Nossa missão é apoiar pessoas em diferentes países parceiros, oferecendo-lhes uma maneira fácil, acessível e segura de denunciar abusos no setor de transporte. Acreditamos que a maioria das vítimas de abusos ocorre em regiões de vulnerabilidade social e, portanto, buscamos ampliar a divulgação do site em todas as redes sociais e manter um canal ativo de acesso gratuito para tornar o serviço amplamente acessível.
+Nossa missão é apoiar pessoas em diferentes países parceiros, oferecendo-lhes uma maneira fácil, acessível e segura de denunciar abusos no setor público. Acreditamos que a maioria das vítimas de abusos ocorre em regiões de vulnerabilidade social e, portanto, buscamos ampliar a divulgação do site em todas as redes sociais e manter um canal ativo de acesso gratuito para tornar o serviço amplamente acessível.
 
-## Como Funciona
+## Como Funciona 🛠️
 
-1. Cadastro e Atualização do Perfil: Para fazer uma denúncia, o usuário deve se cadastrar no site e atualizar seu perfil, fornecendo informações importantes para a análise das denúncias. Se desejar manter o sigilo, pode criar um usuário fictício.
+### 1. Cadastro e Atualização do Perfil
 
-2. Envio da Denúncia: Uma vez registrado em nosso sistema, o usuário pode enviar uma denúncia seguindo as orientações disponíveis na plataforma.
+Para fazer uma denúncia, o usuário deve se cadastrar no site e atualizar seu perfil, fornecendo informações importantes para a análise das denúncias. Se desejar manter o sigilo, pode criar um usuário fictício.
 
-3. Triagem e Encaminhamentos: Nossa equipe de triagem analisará as denúncias recebidas e encaminhará os casos relevantes para as instituições responsáveis pela apuração.
+### 2. Envio da Denúncia
 
-4. Acompanhamento em Tempo Real: O usuário poderá acompanhar o andamento de sua denúncia em tempo real, garantindo transparência e confiança no processo.
+Uma vez registrado em nosso sistema, o usuário pode enviar uma denúncia seguindo as orientações disponíveis na plataforma.
 
-## Parcerias Internacionais
+### 3. Triagem e Encaminhamentos
 
-Nosso serviço não se limita a um único país, pois acreditamos que a luta contra o abuso no setor de transporte é uma causa global. Por esse motivo, estabelecemos parcerias com diversos países para garantir que pessoas de diferentes lugares possam usar nossa plataforma de maneira fácil e acessível.
+Nossa equipe de triagem analisará as denúncias recebidas e encaminhará os casos relevantes para as instituições responsáveis pela apuração.
 
-## Ajude-nos a Manter o Serviço
+### 4. Acompanhamento em Tempo Real
+
+O usuário poderá acompanhar o andamento de sua denúncia em tempo real, garantindo transparência e confiança no processo.
+
+## Parcerias Internacionais 🌍
+
+Nosso serviço não se limita a um único país, pois acreditamos que a luta contra o abuso no setor públicos é uma causa global. Por esse motivo, estabelecemos parcerias com diversos países para garantir que pessoas de diferentes lugares possam usar nossa plataforma de maneira fácil e acessível.
+
+## Apoie-nos 🙏
 
 O Fisco Tech é uma organização não governamental (ONG) ou fundação, sem fins lucrativos, que depende do apoio de doações e contribuições para se manter em funcionamento. Sua doação é fundamental para continuarmos oferecendo esse serviço essencial e apoiar as vítimas de abuso em sua busca por justiça.
 
-## Contato e Redes Sociais
+## Contato e Redes Sociais 📧📱
 
-- **Site**: https://www.fiscotech.org
-- **E-mail**: contato@fiscotech.org
-- **Redes Sociais**: Siga-nos no Facebook, Twitter e Instagram para ficar atualizado com nossas atividades e notícias.
+- **Site**:  [https://fiscotech.netlify.app/]( https://fiscotech.netlify.app/) ou [https://fiscotech.org](https://fiscotech.org)
+- **E-mail**: [contato@fiscotech.org](mailto:contato@fiscotech.org)
+- **Redes Sociais**: Siga-nos no [Facebook](https://facebook.com/fiscotech), [Twitter](https://twitter.com/fiscotech) e [Instagram](https://instagram.com/fiscotech) para ficar atualizado com nossas atividades e notícias.
 
-## Contribuindo com o Projeto
+## Contribua com o Projeto 💪
 
 Se você compartilha de nossa missão e deseja contribuir para o Fisco Tech, existem várias maneiras de ajudar:
 
@@ -46,10 +66,75 @@ Se você compartilha de nossa missão e deseja contribuir para o Fisco Tech, exi
 
 4. **Feedback**: Fornecer feedback sobre o serviço e sugestões de melhorias é sempre bem-vindo e nos ajuda a aprimorar nossa plataforma.
 
-Junte-se a nós nessa importante missão de combate ao abuso no setor de transporte e apoio às vítimas. Sua participação faz a diferença!
+Junte-se a nós nessa importante missão de combate ao abuso no setor público e apoio às vítimas. Sua participação faz a diferença!
 
-## Aviso Legal
+## Aviso Legal ⚖️
 
 O Fisco Tech não se responsabiliza por informações falsas fornecidas por usuários mal-intencionados. Todas as denúncias serão analisadas cuidadosamente, mas a plataforma não pode garantir a resolução de todos os casos.
 
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
+## Desenvolvedores 👩‍💻👨‍💻
+
+#### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
+
+
+<div style="display: flex-box; flex-direction: row;">
+    <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
+        <p>
+                Eduardo G.
+            <br>
+                <a href="https://github.com/Eduardo377/" target="_blank">
+                    GitHub
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
+                    LinkedIn
+                </a>
+        </p>
+    </img>
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4/" height="60">
+        <p>
+                Vaguinel M. J. Bonda
+            <br>
+            <a href="https://github.com/VagMJB/" target="_blank">
+                GitHub
+            </a>
+                <br>
+            <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
+                LinkedIn
+            </a>
+        </p>
+    </img>
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4/" height="60" >
+        <p>
+                Angelicar G.
+                <br>
+                <a href="https://github.com/angelicarg/" target="_blank">
+                    GitHub
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/" target="_blank">
+                    LinkedIn
+                </a>
+            </p>
+    </img>
+    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/101869721?v=4/" height="60" >
+            <p>
+                    Ricardo Santos.
+                <br>
+                    <a href="https://github.com/RicardoSantos-Dev/" target="_blank">
+                        GitHub
+                    </a>
+                <br>
+                    <a href="https://www.linkedin.com/in/ricardo-silva-santos-2b7602166/" target="_blank">
+                        LinkedIn
+                    </a>
+            </p>
+    </img>
+</div>
+
+## Licença 📜
+
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
+---

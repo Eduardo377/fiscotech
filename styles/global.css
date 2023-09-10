@@ -270,11 +270,11 @@ footer {
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
 }
 
 .footer-info, .footer-social {
@@ -296,7 +296,7 @@ footer {
 }
 
 .footer-info {
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .footer-info a {
@@ -324,6 +324,16 @@ footer {
 
 .social-grup-icons {
     display: flex;
+}
+
+.info-uteis{
+    margin-right: 3rem;
+}
+
+.info-uteis a{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
 }
 
 @media (max-width: 768px) {
@@ -399,18 +409,6 @@ footer {
     .hidderResponsive {
     display: none;
   }
-}
-
-.enabled {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-}
-
-.access-button {
-    width: 30% !important;
-    border-radius: 50% !important;
-    border: 1px solid #ffffff9f !important;
 }
 
 /* Padronização cores dos botões */
