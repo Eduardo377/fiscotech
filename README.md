@@ -10,7 +10,7 @@ Repositório com os arquivos criados durante o projeto Integrador
 <div style="display: inline_block">
   <img align="center" alt="icone-GIT" height="60" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-GIT-HUB" height="60" src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
+  <img align="center" alt="icone-GIT-HUB" height="60" src="./assets/github.jpg">
   &nbsp;&nbsp;
   <img align="center" alt="icone-VS-CODE" height="60" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
   &nbsp;&nbsp;
