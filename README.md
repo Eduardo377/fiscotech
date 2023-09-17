@@ -118,7 +118,7 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 * [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
 * [Meta](https://about.meta.com/br/);
 * Professor [Randerson Melville](https://github.com/RandMelville);
-* Aos [menbros](#-Desenvolvedores) do projeto pela dedicação;
+* Aos [menbros](#-desenvolvedores) do projeto pela dedicação;
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
