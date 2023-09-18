@@ -1,3 +1,17 @@
+#sobreNos {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: nowrap;*/
+  align-items: center;
+  text-align: justify;
+  /*margin: 10%;*/
+  padding: 20px;
+  background-color: rgb(224, 236, 181);
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .secao4 {
   height: auto;
   width: 100%;
@@ -47,7 +61,9 @@
   z-index: 1;
 }
 
-.secao4-div-1-coluna, .secao4-div-2-coluna, .secao4-div-3-coluna p {
+.secao4-div-1-coluna,
+.secao4-div-2-coluna,
+.secao4-div-3-coluna p {
   font-weight: 400;
 }
 
@@ -60,20 +76,19 @@
 }
 
 .registration-button {
-    
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
-  
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 main .secao4 .registration-button {
-    margin-top: 80px;
-    display: flex;
-    align-self: center;
+  margin-top: 80px;
+  display: flex;
+  align-self: center;
 }
 
 @media (max-width: 768px) {
-  main .secao4 .registration-button  {
+  main .secao4 .registration-button {
     margin-top: 0px;
     display: flex;
     align-self: center;
@@ -81,5 +96,5 @@ main .secao4 .registration-button {
 }
 
 .registro {
-    max-width: 150px;
+  max-width: 150px;
 }

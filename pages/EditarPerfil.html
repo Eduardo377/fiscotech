@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisco Tech</title>
-    <!-- <link rel="stylesheet" href="../styles/style.css"> -->
+    <title>Ediatr Pefil</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/tela_principal.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,29 +37,66 @@
 </head>
 
 <body>
-    <header class="header">
-    </header>
 
     <body>
-       
-        <main>
-        
-            <section class="container-button">
-                <div class="container-text-welcome">
-                        <h1>Olá seja bem-vindo!</h1>
-                        <p>O Fisco Tech é uma plataforma online cujo principal objetivo é coletar denúncias de abuso de agentes públicos no setor de transporte e encaminhá-las às instituições responsáveis para apuração.</p>
-                        <p>Além disso, a plataforma visa fornecer orientações e apoio às vítimas de possíveis abusos, buscando justiça e segurança para aqueles que denunciam. Para garantir a segurança dos usuários, quando possível, serão utilizadas identidades fictícias para preservar e resguardar o direito de denúncia.</p>                    
+        <header class="header">
+        </header>
+
+        <div class="cabecalhohead">
+            <h1 id="posicao2head">Editar Perfil</h1>
+        </div>
+
+        <main class="meiohead">
+            <form action="" method="POST" class="formulario">
+                <div class="campo1">
+                    <p><small>Campos com (*) asterisco são obrigatórios</small></p>
+                </div>
+    
+                <div class="campo">
+                <label>*Digite o Novo Nome Completo</label>
+                <input type="text" nome="nome" id=" Nome" required />
                 </div>
 
-                <div>
-                    <a href="./novaSolicitacao.html"><button class="botao">Faça Denúncia</button></a>
-    
-                    <a href="/pages/EditarPerfil.html"><button class="botao" id="button-center">Editar Perfil</button></a>
-                    
-                    <a href="./historico.html"><button class="botao" id="btn-acompanhe-ocorrencia">Acompanhe Sua Denúncia</button></a>
+                <div class="campo">
+                <label>*Digite o Novo E-mail"</label>
+                <input type="email" id="email" required />
                 </div>
-                
-            </section>  
+
+                <div class="campo">
+                <label for="*telefone">*Digite o Novo Telefone</label>
+                <input
+                    type="tel"
+                    id="telefone"
+                    required
+                    placeholder="(XX) - X XXXX-XXXX"
+                />
+                </div>
+
+                <div class="campo">
+                <label>Digite o Novo Endereço</label>
+                <input type="text" />
+                </div>
+    
+                <div class="campo">
+                <label for="bairro">Digite o Novo Bairro</label>
+                <input type="text" id="bairro" />
+                </div>
+
+                <div class="campo">
+                <label for=" cep">Digite o Novo CEP</label>
+                <input type="number" id="cep" />
+                </div>
+
+                <div class="campo">
+                <label for=" estado">Digite o Novo Estado</label>
+                <input type="tel" id="tel" />
+                </div>
+
+                </div>
+                <div class="botaohead">
+                <button type="submit">Enviar</button>
+                </div>
+          </form>
         </main>
 
         <footer id="footer">

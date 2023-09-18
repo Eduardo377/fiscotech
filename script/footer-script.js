@@ -15,8 +15,25 @@ lgpdLink.rel = "noopener noreferrer";
 const lgpdText = document.createElement("p");
 lgpdText.innerText = "Lei Geral de Proteção de Dados Pessoais (LGPD), Lei n° 13.709/2018"
 
+const footerInfoUteis = document.createElement('div');
+footerInfoUteis.classList.add("info-uteis");
+
+const linkInfoUteis = document.createElement('a');
+linkInfoUteis.href = "/pages/informaçao_uteis.html";
+linkInfoUteis.target = "_blank";
+linkInfoUteis.alt = "Informações Uteis";
+linkInfoUteis.rel = "noopener noreferrer";
+
+footerInfoUteis.appendChild(linkInfoUteis);
+
+const infoUteisTxt = document.createElement("p");
+infoUteisTxt.innerText = "Informações Uteis"
+
+linkInfoUteis.appendChild(infoUteisTxt);
+
 const footerSocial = document.createElement("div");
 footerSocial.classList.add("footer-social");
+
 
 const footerSocialContainer = document.createElement('div');
 footerSocialContainer.classList.add("footer-info-Container");
@@ -52,6 +69,7 @@ socialLinks1.forEach((social) => {
     socialLink1.appendChild(socialImg);
     socialIcons1.appendChild(socialLink1);
 });
+
 socialLinks2.forEach((social) => {
     const socialLink2 = document.createElement('a');
     socialLink2.href = social.link;
@@ -87,6 +105,7 @@ lgpdLink.appendChild(lgpdText);
 
 footerContainer.appendChild(footerInfo);
 footerContainer.appendChild(footerSocial);
+footerContainer.appendChild(footerInfoUteis);
 
 const items = [
     { tipo: "&#169 2023 all right reserve" },
