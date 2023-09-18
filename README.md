@@ -1,18 +1,41 @@
+## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: [Randerson Melville](https://github.com/RandMelville)
+
+```
+Repositório com os arquivos criados durante o projeto Integrador
+```
+---
+
+## **Tecnologias Utilizadas:**
+
+<div style="display: inline_block">
+  <img align="center" alt="icone-GIT" height="60" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-GIT-HUB" height="60" src="./assets/github.jpg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-VS-CODE" height="60" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-GIT-LENS" height="60" src="https://github.com/gitkraken/vscode-gitlens/blob/main/images/gitlens-icon.png">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-HTML" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-CSS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-JS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  &nbsp;&nbsp;
+  <img align="center" alt="icone-Python" height="60" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
+  &nbsp;&nbsp;
+</div>
+
+---
+
+![Fisco Tech)](./assets/header-footer.png)
+
 [![Status](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)](https://github.com/Eduardo377/fiscotech)
 
-<table style="width:100%">
-  <tr>
-    <td>
-        <img alt="Fisco Tech Logo" height="80" src="./assets/logo.ico"/>
-    </td>
-  </tr>
-  <tr>
-    
 # Fisco Tech - Plataforma de Denúncias e Apoio a Vítimas de Abuso por agentes públicos.
-    
-    Uma plataforma online para denúncias de abuso no setor públicos e apoio às vítimas.
-  </tr>
-</table>
+
+| <img alt="Fisco Tech Logo" height="80" src="./assets/logo.ico"/> | Uma plataforma online para denúncias de <br> abuso no setor públicos e apoio às vítimas. | 
+| ---------------- | ----- |
 
 ## Visão Geral 🌐
 
@@ -77,64 +100,29 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 #### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:
 
+<div style="text-align: center">
 
-<div style="display: flex-box; flex-direction: row;">
-    <img style="margin: 10px; display: flex; flex-direction: row; margin-left: 0px;" src="https://avatars.githubusercontent.com/u/35434628?v=4/" height="60">
-        <p>
-                Eduardo G.
-            <br>
-                <a href="https://github.com/Eduardo377/" target="_blank">
-                    GitHub
-                </a>
-                <br>
-                <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
-                    LinkedIn
-                </a>
-        </p>
-    </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/104402902?v=4/" height="60">
-        <p>
-                Vaguinel M. J. Bonda
-            <br>
-            <a href="https://github.com/VagMJB/" target="_blank">
-                GitHub
-            </a>
-                <br>
-            <a href="https://www.linkedin.com/in/eduardogomes377/" target="_blank">
-                LinkedIn
-            </a>
-        </p>
-    </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/108835675?v=4/" height="60" >
-        <p>
-                Angelicar G.
-                <br>
-                <a href="https://github.com/angelicarg/" target="_blank">
-                    GitHub
-                </a>
-                <br>
-                <a href="https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/" target="_blank">
-                    LinkedIn
-                </a>
-            </p>
-    </img>
-    <img style="margin: 10px" src="https://avatars.githubusercontent.com/u/101869721?v=4/" height="60" >
-            <p>
-                    Ricardo Santos.
-                <br>
-                    <a href="https://github.com/RicardoSantos-Dev/" target="_blank">
-                        GitHub
-                    </a>
-                <br>
-                    <a href="https://www.linkedin.com/in/ricardo-silva-santos-2b7602166/" target="_blank">
-                        LinkedIn
-                    </a>
-            </p>
-    </img>
+| Perfil | <img width="100" alt="Foto de Perfil da Eduardo" src="https://avatars.githubusercontent.com/u/35434628?v=4/"> | <img width="100" alt="Foto de Perfil da Vaguinel" src="https://avatars.githubusercontent.com/u/104402902?v=4/"> | <img width="100" alt="Foto de Perfil da Angelicar" src="https://avatars.githubusercontent.com/u/108835675?v=4/"> | <img width="100" alt="Foto de Perfil de Ricardo" src="https://avatars.githubusercontent.com/u/101869721?v=4/"> |
+| ---------------- | ----- | --------- | --------- | --------- |
+| <strong> Nome </strong> | `Eduardo` <br> `Andrade` | `Vaguinel M.` <br> `J. Bonda` | `Angelicar` <br> `Gonçalves` | `Ricardo` <br> `Santos` |
+| <strong> Função </strong> | Front-End | Front-End | Front-End | Front-End |
+| <strong> Github </strong> | <a href="https://github.com/Eduardo377/" target="_blank"> <img height="30" alt="GitHub de Eduardo" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | <a href="https://github.com/VagMJB/" target="_blank" > <img height="30" alt="GitHub de Vaguinel" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | <a href="https://github.com/angelicarg/"> <img height="30" alt="GitHub de Angelicar G." src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | <a href="https://github.com/RicardoSantos-Dev/"> <img height="30" alt="GitHub de Ricardo" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> |
+| <strong> Linkedin </strong> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardogomes377/) | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaguinel-miguel-bonda-345b74238/) | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ang%C3%A9lica-rodrigues-gon%C3%A7alves-774b5646/) | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardo-silva-santos-2b7602166/) |
+
 </div>
 
+## Agradecimentos
+
+* [Proz Tecnologia](https://prozeducacao.com.br/);
+* [Portal Tech](https://portaltech.joyclass.com/app/list);
+* [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
+* [Meta](https://about.meta.com/br/);
+* Professor [Randerson Melville](https://github.com/RandMelville);
+* Aos menbros do projeto pela dedicação;
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
+
+![Fisco Tech)](./assets/header-footer.png)
