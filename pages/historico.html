@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/historico.css">
+    <link rel="stylesheet" href="../styles/modalEliminar.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,7 +69,7 @@
                             height= "50px"></a>
                         </td>
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                            <a href="#" onclick="abrirModal"><img src="../assets/icon_delete.png" alt="" 
                             width = "50px" 
                             height="50px"></a>
                         </td>
@@ -120,11 +121,31 @@
                              height="50px"></a>
                          </td>
                     </tr>
+                
                 </table>
             </div>
+                
+                <div class="janela-modal-eliminar" id="janela-modal-eliminar">
+                    <div class="modal">
+                        <p>Tem certeza que deseja eliminar?
+                        </p>
+                        <div class="button-modal">
+                            <button id="eliminar">Sim</button>
+                            <button id="cancelar">Cancelar</button>
+                        </div>
+        
+                    </div>
+                </div>
+               
+
+           
         </section>
+
+       
     
     </main>
+
+
     <footer id="footer">
     </footer>
     <div vw class="enabled">
@@ -140,6 +161,7 @@
     <script src="../script/header-script.js" defer></script>
     <script src="../script/footer-script.js" defer></script>
     <script src="../script/mode-script.js" defer></script>
+    <script src="../script/Iteracao/modalEliminar.js"></script>
 </body>
 
 </html>
