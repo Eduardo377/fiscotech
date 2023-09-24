@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: Rand
+=======
+## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: [Randerson Melville](https://github.com/RandMelville)
+>>>>>>> 96bf294cac3d07e75c3a50b40db71d087fc36c5f
 
 ```
 Repositório com os arquivos criados durante o projeto Integrador
@@ -113,12 +117,21 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 
 ## Agradecimentos
 
+<<<<<<< HEAD
 * Proz Tecnologia;
 * Portal Tech;
 * AWS;
 * Meta;
 * Professor [Rand](https://github.com/RandMelville);
 * Aos membros do projeto pela dedicação;
+=======
+* [Proz Tecnologia](https://prozeducacao.com.br/);
+* [Portal Tech](https://portaltech.joyclass.com/app/list);
+* [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
+* [Meta](https://about.meta.com/br/);
+* Professor [Randerson Melville](https://github.com/RandMelville);
+* Aos menbros do projeto pela dedicação;
+>>>>>>> 96bf294cac3d07e75c3a50b40db71d087fc36c5f
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
