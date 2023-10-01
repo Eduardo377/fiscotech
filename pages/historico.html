@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/historico.css">
+    <link rel="stylesheet" href="../styles/modalEliminar.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,6 +48,8 @@
             <h1>Histórico de denuncias</h1>
         </div>
 
+        
+
         <section>
             <div class="container">
                 <table>
@@ -68,7 +71,7 @@
                             height= "50px"></a>
                         </td>
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                            <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                             width = "50px" 
                             height="50px"></a>
                         </td>
@@ -79,12 +82,13 @@
                         <td>10/03/2023</td>
 
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            <a href="#" ><img src="../assets/icon_visualizar.png" alt="" 
                              width= "50px" 
                              height= "50px"></a>
                          </td>
+
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
@@ -99,7 +103,7 @@
                              height= "50px"></a>
                          </td>
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
@@ -114,16 +118,37 @@
                              height= "50px"></a>
                          </td>
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
                     </tr>
+                
                 </table>
+
             </div>
+
+            <div class="modal-container-eliminar">
+                <div class="modal">
+                    <h2>Eliminar Ocorrência</h2>
+                    <hr>
+                    <span>
+                       Tem certeza que deseja eliminar?
+                    </span>
+                   
+        
+                    <div class="btns">
+                        <button class="btnOK" onclick="closeModalEliminar()">Sim</button>
+                        <button class="btnClose" onclick="closeModalEliminar()">Close</button>
+                    </div>
+                </div>
+            </div> 
         </section>
-    
+
+       
     </main>
+
+
     <footer id="footer">
     </footer>
     <div vw class="enabled">
@@ -139,6 +164,7 @@
     <script src="../script/header-script.js" defer></script>
     <script src="../script/footer-script.js" defer></script>
     <script src="../script/mode-script.js" defer></script>
+    <script src="../script/Iteracao/modalEliminar.js"></script>
 </body>
 
 </html>

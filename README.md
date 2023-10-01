@@ -117,12 +117,12 @@ O Fisco Tech não se responsabiliza por informações falsas fornecidas por usu�
 * [Portal Tech](https://portaltech.joyclass.com/app/list);
 * [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
 * [Meta](https://about.meta.com/br/);
+* A coordenadora [Pam de Bortoli Machado](https://www.linkedin.com/in/pameducacao/);
 * Professor [Randerson Melville](https://github.com/RandMelville);
 * Aos menbros do projeto pela dedicação;
 ## Licença 📜
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
----
 
-![Fisco Tech)](./assets/header-footer.png)
+![Fisco Tech](./assets/header-footer.png)
