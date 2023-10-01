@@ -4,7 +4,7 @@
     position: fixed;
     top: 30px;
     display: none;
-    z-index: 999;
+    z-index: 9999;
     justify-content: center;
 }
 
@@ -88,6 +88,79 @@ hr{
 
 @media (max-width: 500px){
     .modal {
+        padding: 10px;
+        width: 80%;
+    }
+
+    span, .btns bottom {
+        font-size: smaller;
+    }
+}
+
+
+/* -------------------------------------------------ESTILIZANDO A MODAL PARA EXIBIR ISNFORMAÇÕES DE OCORRENCIAS ---------------------------------- */
+
+
+.modal-container-visualizar{
+    width: 100vw;
+    position: fixed;
+    top: 20%;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+
+.header-modal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnclose{
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnclose:hover{
+    background-color: red;
+}
+
+.modal-visualizar{
+    display:flex;
+    padding: 30px;
+    background-color:  rgb(245, 243, 134);
+    border-radius: 10px;
+    width: 50%;
+    flex-direction: column;
+}
+
+/* QUANDO FOR CLICADO NO BOTÃO, SERÁ ACTIVADO A CLASSE ACTIVE */
+.active-visualizar{
+    display: flex;
+}
+
+/* QUANDO FOR ACTIVADO A NOSSA MODAL, VAI APARECER UMA ANIMAÇÃO */
+.active-visualizar .modal-visualizar{
+    animation: modal .10s;
+}
+
+/* ANIMAÇÃO QUANDO ABRIMOS O NOSSO MODAL */
+@keyframes modal{
+    form{
+        opacity: 0;
+        transform: rotate3d(1, -60px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotate3d(0, 0, 0);
+    }
+}
+
+@media (max-width: 500px){
+    .modal-visualizar {
         padding: 10px;
         width: 80%;
     }

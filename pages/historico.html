@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/global.css" />
     <link rel="stylesheet" href="../styles/historico.css">
-    <link rel="stylesheet" href="../styles/modalEliminar.css">
+    <link rel="stylesheet" href="../styles/modalOcorrencias.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +66,7 @@
                         <td>Corrupção</td>
                         <td>10/05/2023</td>
                         <td class="icone">
-                           <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                           <a href="#" onclick="openModaVisualizar()"><img src="../assets/icon_visualizar.png" alt="" 
                             width= "50px" 
                             height= "50px"></a>
                         </td>
@@ -82,7 +82,7 @@
                         <td>10/03/2023</td>
 
                         <td class="icone">
-                            <a href="#" ><img src="../assets/icon_visualizar.png" alt="" 
+                            <a href="#" onclick="openModaVisualizar()"><img src="../assets/icon_visualizar.png" alt="" 
                              width= "50px" 
                              height= "50px"></a>
                          </td>
@@ -98,7 +98,7 @@
                         <td>Abuso de poder</td>
                         <td>10/03/2023</td>
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            <a href="#" onclick="openModaVisualizar()"><img src="../assets/icon_visualizar.png" alt="" 
                              width= "50px" 
                              height= "50px"></a>
                          </td>
@@ -113,7 +113,7 @@
                         <td>Discriminação Racial</td>
                         <td>20/08/2023</td>
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            <a href="#" onclick="openModaVisualizar()"><img src="../assets/icon_visualizar.png" alt="" 
                              width= "50px" 
                              height= "50px"></a>
                          </td>
@@ -143,6 +143,28 @@
                     </div>
                 </div>
             </div> 
+
+            <div class="modal-container-visualizar">
+                <div class="modal-visualizar">
+                   
+                    <div class="header-modal">
+                        <h2>Informações</h2>
+                        <button class="btnclose" onclick="closeModalVisualizar()">X</button>
+                    </div>
+                    <hr>
+                    <span>
+                        <p>Nome do denunciante:</p>
+                        <p>Data:</p>
+                        <p>Denúncia:</p>
+                        <p>Local da Ocorrência:</p>
+                        <p>Descrição Detalhada da Ocorrência:</p>
+                        <p>Evidências:</p>
+                        <p>Ações tomadas até ao momento:</p>
+                        <p>Resposta à denúncia:</p>
+                    </span>
+                   
+                </div>
+            </div> 
         </section>
 
        
@@ -164,7 +186,7 @@
     <script src="../script/header-script.js" defer></script>
     <script src="../script/footer-script.js" defer></script>
     <script src="../script/mode-script.js" defer></script>
-    <script src="../script/Iteracao/modalEliminar.js"></script>
+    <script src="../script/Iteracao/modaloOcorrencia.js"></script>
 </body>
 
 </html>
