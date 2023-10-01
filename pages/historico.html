@@ -48,6 +48,8 @@
             <h1>Histórico de denuncias</h1>
         </div>
 
+        
+
         <section>
             <div class="container">
                 <table>
@@ -69,7 +71,7 @@
                             height= "50px"></a>
                         </td>
                         <td class="icone">
-                            <a href="#" onclick="abrirModal"><img src="../assets/icon_delete.png" alt="" 
+                            <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                             width = "50px" 
                             height="50px"></a>
                         </td>
@@ -80,13 +82,13 @@
                         <td>10/03/2023</td>
 
                         <td class="icone">
-                            <a href="#"><img src="../assets/icon_visualizar.png" alt="" 
+                            <a href="#" ><img src="../assets/icon_visualizar.png" alt="" 
                              width= "50px" 
                              height= "50px"></a>
                          </td>
 
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
@@ -101,7 +103,7 @@
                              height= "50px"></a>
                          </td>
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
@@ -116,26 +118,34 @@
                              height= "50px"></a>
                          </td>
                          <td class="icone">
-                             <a href="#"><img src="../assets/icon_delete.png" alt="" 
+                             <a href="#" class="iconOpenModalEliminar" onclick="openModal()"><img src="../assets/icon_delete.png" alt="" 
                              width = "50px" 
                              height="50px"></a>
                          </td>
                     </tr>
                 
                 </table>
+
             </div>
-                
-                <div class="janela-modal-eliminar" id="janela-modal-eliminar">
-                    <div class="modal">
-                        <p>Tem certeza que deseja eliminar?
-                        </p>
-                        <div class="button-modal">
-                            <button id="eliminar">Sim</button>
-                            <button id="cancelar">Cancelar</button>
-                        </div>
+
+            <div class="modal-container-eliminar">
+                <div class="modal">
+                    <h2>Eliminar Ocorrência</h2>
+                    <hr>
+                    <span>
+                       Tem certeza que deseja eliminar?
+                    </span>
+                   
         
+                    <div class="btns">
+                        <button class="btnOK" onclick="closeModalEliminar()">Sim</button>
+                        <button class="btnClose" onclick="closeModalEliminar()">Close</button>
                     </div>
                 </div>
+            </div>
+
+                
+               
                
 
            

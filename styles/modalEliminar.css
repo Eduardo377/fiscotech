@@ -1,50 +1,101 @@
-.janela-modal-eliminar{
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(245, 243, 134);
+
+.modal-container-eliminar{
+    width: 100vw;
+    position: fixed;
+    top: 30px;
+    display: none;
     z-index: 999;
+    justify-content: center;
 }
 
-.modal{
-    /* width: 50%; */
-    min-width:300px;
+/* .modal{
+    width: 50%;
+    min-width:500px;
     height: 200px;
     background-color: rgba(255, 255, 255, 0.681);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     padding: 90px;
     border-radius: 20px;
-    padding-top: 30px;    
-}
-
-.button-modal{
-    margin-top: 50px;
-    width: 300px;
-    height: 400px;
-   
-}
-
-.button-modal button:nth-child(1){
-    background-color: rgb(101, 143, 58);
-    border: 0;
-    border-radius: 30px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    margin-right: 50px;
- }
-
-.button-modal button:nth-child(2){
-    background-color: rgba(255, 0, 0, 0.79);
-    border: 0;
-    border-radius: 30px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
+    padding-top: 30px; 
+    justify-content: center;
     
+} */
+
+.modal{
+    display:flex;
+    padding: 30px;
+    background-color:  rgb(245, 243, 134);
+    border-radius: 10px;
+    width: 50%;
+    flex-direction: column;
+}
+
+hr{
+    border: 8px;
+    border-top: 1px solid aliceblue;
+    padding: 5px;
+}
+
+/* QUANDO FOR CLICADO NO BOTÃO, SERÁ ACTIVADO A CLASSE ACTIVE */
+.active{
+    display: flex;
+}
+
+/* QUANDO FOR ACTIVADO A NOSSA MODAL, VAI APARECER UMA ANIMAÇÃO */
+.active .modal{
+    animation: modal .10s;
+}
+
+/* ANIMAÇÃO QUANDO ABRIMOS O NOSSO MODAL */
+@keyframes modal{
+    form{
+        opacity: 0;
+        transform: rotate3d(1, -60px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotate3d(0, 0, 0);
+    }
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btnOK{
+    background-color: rgb(18, 18, 167);
+    cursor: pointer;
+    padding:10px ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btnOK.btnOK:hover{
+    background-color: rgba(108, 193, 23, 0.525);
+}
+
+.btnClose{
+    background-color: rgb(207, 17, 17);
+    cursor: pointer;
+    padding:10px ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px){
+    .modal {
+        padding: 10px;
+        width: 80%;
+    }
+
+    span, .btns bottom {
+        font-size: smaller;
+    }
 }
