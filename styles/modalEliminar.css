@@ -67,24 +67,21 @@ hr{
 }
 
 .btnOK{
-    background-color: rgb(18, 18, 167);
+    background-color: rgba(108, 193, 23, 0.525);
     cursor: pointer;
     padding:10px ;
-    color: white;
+    color:black;
     border: none;
     border-radius: 5px;
 
 }
 
-.btnOK.btnOK:hover{
-    background-color: rgba(108, 193, 23, 0.525);
-}
 
 .btnClose{
     background-color: rgb(207, 17, 17);
     cursor: pointer;
     padding:10px ;
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
 }
