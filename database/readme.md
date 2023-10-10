@@ -57,9 +57,9 @@ Essas tabelas foram projetadas para armazenar informações relacionadas a denú
 ```sql
 CREATE TABLE Users (
     UserID SERIAL PRIMARY KEY,
-    Name VARCHAR(255),
+    Name VARCHAR(255) NOT NULL,
     Email VARCHAR(255) UNIQUE NOT NULL,
-    senha VARCHAR(255) NOT NULL,
+    PASSWORD VARCHAR(22) NOT NULL,
     Role VARCHAR(10) CHECK (Role IN ('User', 'Admin')) NOT NULL
 );
 ```
@@ -68,7 +68,7 @@ CREATE TABLE Users (
 CREATE TABLE Reports (
     ReportID SERIAL PRIMARY KEY,
     Title VARCHAR(255) NOT NULL,
-    Description TEXT,
+    Description TEXT NOT NULL,
     DateTimeSubmitted TIMESTAMPTZ DEFAULT NOW(),
     Status VARCHAR(20) CHECK (Status IN ('Submitted', 'In Review', 'Resolved')) DEFAULT 'Submitted',
     UserID INT,
