@@ -1,77 +1,80 @@
 **Modelo de Banco de Dados para um Projeto de Denúncias Fisco Tech:**
 
-Vamos criar um banco de dados para o projeto "Fisco Tech" que inclui informações sobre usuários, denúncias, comentários e anexos.
+Banco de dados para o projeto "Fisco Tech" que inclui informações sobre usuários, denúncias, comentários e anexos.
 
-1. **Tabela de Usuários:**
+Claro, vou explicar cada uma das tabelas criadas no esquema:
 
-   - ID (Chave Primária)
-   - Nome
-   - Email
-   - Senha (Hashed e Salteada)
-   - Papel (por exemplo, Usuário Normal, Administrador)
+1. **Tabela de Usuários (Users):**
+   - `UserID`: Esta é a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada usuário.
+   - `Name`: Armazena o nome do usuário.
+   - `Email`: Armazena o endereço de e-mail do usuário, que deve ser único e não nulo.
+   - `senha`: Armazena o hash da senha do usuário para fins de autenticação.
+   - `Role`: Define a função do usuário no sistema, podendo ser 'User' (usuário comum) ou 'Admin' (administrador). Este campo é validado com uma restrição CHECK.
 
-2. **Tabela de Denúncias:**
+2. **Tabela de Denúncias (Reports):**
+   - `ReportID`: É a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada denúncia.
+   - `Title`: Armazena o título da denúncia.
+   - `Description`: Armazena a descrição detalhada da denúncia em formato de texto.
+   - `DateTimeSubmitted`: Armazena a data e a hora em que a denúncia foi submetida, usando o tipo TIMESTAMPTZ (com suporte a fuso horário) e definida como o valor padrão NOW() para registrar automaticamente o momento da submissão.
+   - `Status`: Define o status da denúncia, que pode ser 'Submitted' (submetida), 'In Review' (em revisão) ou 'Resolved' (resolvida). Este campo é validado com uma restrição CHECK.
+   - `UserID`: Esta coluna está relacionada com a tabela "Users" usando uma chave estrangeira, indicando qual usuário fez a denúncia.
 
-   - ID (Chave Primária)
-   - Título da Denúncia
-   - Descrição da Denúncia
-   - Data e Hora da Denúncia
-   - Status (por exemplo, Enviada, Em Triagem, Resolvida)
-   - ID do Usuário (Chave Estrangeira que se relaciona com a tabela de Usuários)
+3. **Tabela de Comentários (Comments):**
+   - `CommentID`: Esta é a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada comentário.
+   - `CommentText`: Armazena o texto do comentário.
+   - `DateTimePosted`: Armazena a data e a hora em que o comentário foi postado, usando o tipo TIMESTAMPTZ (com suporte a fuso horário) e definida como o valor padrão NOW() para registrar automaticamente o momento da postagem.
+   - `UserID`: Esta coluna está relacionada com a tabela "Users" usando uma chave estrangeira, indicando qual usuário fez o comentário.
+   - `ReportID`: Esta coluna está relacionada com a tabela "Reports" usando uma chave estrangeira, indicando a que denúncia o comentário está relacionado.
 
-3. **Tabela de Comentários:**
+4. **Tabela de Anexos (Attachments):**
+   - `AttachmentID`: Esta é a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada anexo.
+   - `FileName`: Armazena o nome do arquivo de anexo.
+   - `FileType`: Define o tipo de arquivo de anexo, que pode ser 'Image' (imagem), 'Video' (vídeo) ou 'Document' (documento). Este campo é validado com uma restrição CHECK.
+   - `FilePath`: Armazena o caminho do arquivo de anexo.
+   - `ReportID`: Esta coluna está relacionada com a tabela "Reports" usando uma chave estrangeira, indicando a que denúncia o anexo está relacionado.
 
-   - ID (Chave Primária)
-   - Texto do Comentário
-   - Data e Hora do Comentário
-   - ID do Usuário (Chave Estrangeira que se relaciona com a tabela de Usuários)
-   - ID da Denúncia (Chave Estrangeira que se relaciona com a tabela de Denúncias)
+Essas tabelas foram projetadas para armazenar informações relacionadas a denúncias feitas por usuários em um sistema. Elas permitem que os usuários façam denúncias, postem comentários sobre essas denúncias e anexem arquivos relevantes. Além disso, o esquema inclui informações sobre os próprios usuários, como nome, e-mail e função no sistema. Essas tabelas são interconectadas por meio de chaves estrangeiras para manter a integridade referencial dos dados.
 
-4. **Tabela de Anexos:**
-
-   - ID (Chave Primária)
-   - Nome do Arquivo
-   - Tipo de Arquivo (Imagem, Vídeo, Documento)
-   - Caminho do Arquivo (ou URL se estiver armazenado externamente)
-   - ID da Denúncia (Chave Estrangeira que se relaciona com a tabela de Denúncias)
-
+ - Tabela de Usuários
 ```sql
--- Tabela de Usuários
 CREATE TABLE Users (
-    UserID INT PRIMARY KEY AUTO_INCREMENT,
+    UserID SERIAL PRIMARY KEY,
     Name VARCHAR(255),
     Email VARCHAR(255) UNIQUE NOT NULL,
-    PasswordHash VARCHAR(255) NOT NULL,
-    Role ENUM('User', 'Admin') NOT NULL
+    senha VARCHAR(255) NOT NULL,
+    Role VARCHAR(10) CHECK (Role IN ('User', 'Admin')) NOT NULL
 );
-
--- Tabela de Denúncias
+```
+ - Tabela de Denúncias
+```sql
 CREATE TABLE Reports (
-    ReportID INT PRIMARY KEY AUTO_INCREMENT,
+    ReportID SERIAL PRIMARY KEY,
     Title VARCHAR(255) NOT NULL,
     Description TEXT,
-    DateTimeSubmitted DATETIME DEFAULT CURRENT_TIMESTAMP,
-    Status ENUM('Submitted', 'In Review', 'Resolved') DEFAULT 'Submitted',
+    DateTimeSubmitted TIMESTAMPTZ DEFAULT NOW(),
+    Status VARCHAR(20) CHECK (Status IN ('Submitted', 'In Review', 'Resolved')) DEFAULT 'Submitted',
     UserID INT,
     FOREIGN KEY (UserID) REFERENCES Users(UserID)
 );
-
--- Tabela de Comentários
+```
+ - Tabela de Comentários
+```sql
 CREATE TABLE Comments (
-    CommentID INT PRIMARY KEY AUTO_INCREMENT,
+    CommentID SERIAL PRIMARY KEY,
     CommentText TEXT NOT NULL,
-    DateTimePosted DATETIME DEFAULT CURRENT_TIMESTAMP,
+    DateTimePosted TIMESTAMPTZ DEFAULT NOW(),
     UserID INT,
     ReportID INT,
     FOREIGN KEY (UserID) REFERENCES Users(UserID),
     FOREIGN KEY (ReportID) REFERENCES Reports(ReportID)
 );
-
--- Tabela de Anexos
+```
+ - Tabela de Anexos
+```sql
 CREATE TABLE Attachments (
-    AttachmentID INT PRIMARY KEY AUTO_INCREMENT,
+    AttachmentID SERIAL PRIMARY KEY,
     FileName VARCHAR(255) NOT NULL,
-    FileType ENUM('Image', 'Video', 'Document') NOT NULL,
+    FileType VARCHAR(10) CHECK (FileType IN ('Image', 'Video', 'Document')) NOT NULL,
     FilePath VARCHAR(255) NOT NULL,
     ReportID INT,
     FOREIGN KEY (ReportID) REFERENCES Reports(ReportID)
