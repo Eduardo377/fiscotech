@@ -10,6 +10,8 @@ Claro, vou explicar cada uma das tabelas criadas no esquema:
    - `Email`: Armazena o endereço de e-mail do usuário, que deve ser único e não nulo.
    - `senha`: Armazena o hash da senha do usuário para fins de autenticação.
    - `Role`: Define a função do usuário no sistema, podendo ser 'User' (usuário comum) ou 'Admin' (administrador). Este campo é validado com uma restrição CHECK.
+        - Relação "Um para Muitos" com a tabela "Reports":
+            - Um usuário pode criar várias denúncias, mas cada denúncia é criada por apenas um usuário.
 
 2. **Tabela de Denúncias (Reports):**
    - `ReportID`: É a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada denúncia.
@@ -18,6 +20,15 @@ Claro, vou explicar cada uma das tabelas criadas no esquema:
    - `DateTimeSubmitted`: Armazena a data e a hora em que a denúncia foi submetida, usando o tipo TIMESTAMPTZ (com suporte a fuso horário) e definida como o valor padrão NOW() para registrar automaticamente o momento da submissão.
    - `Status`: Define o status da denúncia, que pode ser 'Submitted' (submetida), 'In Review' (em revisão) ou 'Resolved' (resolvida). Este campo é validado com uma restrição CHECK.
    - `UserID`: Esta coluna está relacionada com a tabela "Users" usando uma chave estrangeira, indicando qual usuário fez a denúncia.
+        - Relação "Muitos para Um" com a tabela "Users":
+            - Várias denúncias podem estar associadas a um único usuário que as criou.
+
+        - Relação "Um para Muitos" com a tabela "Comments":
+            - Uma denúncia pode ter vários comentários, mas cada comentário pertence a apenas uma denúncia.
+
+        - Relação "Um para Muitos" com a tabela "Attachments":
+            - Uma denúncia pode ter vários anexos, mas cada anexo pertence a apenas uma denúncia.
+
 
 3. **Tabela de Comentários (Comments):**
    - `CommentID`: Esta é a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada comentário.
@@ -25,6 +36,11 @@ Claro, vou explicar cada uma das tabelas criadas no esquema:
    - `DateTimePosted`: Armazena a data e a hora em que o comentário foi postado, usando o tipo TIMESTAMPTZ (com suporte a fuso horário) e definida como o valor padrão NOW() para registrar automaticamente o momento da postagem.
    - `UserID`: Esta coluna está relacionada com a tabela "Users" usando uma chave estrangeira, indicando qual usuário fez o comentário.
    - `ReportID`: Esta coluna está relacionada com a tabela "Reports" usando uma chave estrangeira, indicando a que denúncia o comentário está relacionado.
+        - Relação "Muitos para Um" com a tabela "Users":
+            - Vários comentários podem estar associados a um único usuário que os postou.
+
+        - Relação "Muitos para Um" com a tabela "Reports":
+            - Vários comentários podem estar associados a uma única denúncia.
 
 4. **Tabela de Anexos (Attachments):**
    - `AttachmentID`: Esta é a chave primária da tabela e é gerada automaticamente como uma sequência SERIAL. Ela identifica exclusivamente cada anexo.
@@ -32,6 +48,8 @@ Claro, vou explicar cada uma das tabelas criadas no esquema:
    - `FileType`: Define o tipo de arquivo de anexo, que pode ser 'Image' (imagem), 'Video' (vídeo) ou 'Document' (documento). Este campo é validado com uma restrição CHECK.
    - `FilePath`: Armazena o caminho do arquivo de anexo.
    - `ReportID`: Esta coluna está relacionada com a tabela "Reports" usando uma chave estrangeira, indicando a que denúncia o anexo está relacionado.
+        - Relação "Muitos para Um" com a tabela "Reports":
+            - Vários anexos podem estar associados a uma única denúncia.
 
 Essas tabelas foram projetadas para armazenar informações relacionadas a denúncias feitas por usuários em um sistema. Elas permitem que os usuários façam denúncias, postem comentários sobre essas denúncias e anexem arquivos relevantes. Além disso, o esquema inclui informações sobre os próprios usuários, como nome, e-mail e função no sistema. Essas tabelas são interconectadas por meio de chaves estrangeiras para manter a integridade referencial dos dados.
 
