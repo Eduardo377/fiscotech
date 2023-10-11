@@ -138,3 +138,57 @@ SELECT u.name, r.title, r.description, r.status, c.commenttext
 FROM comments AS c
 INNER JOIN users AS u ON c.userid = u.userid
 INNER JOIN reports AS r ON c.reportid = r.reportid;
+
+
+/*ADICIONAR NOVAS COLUNAS NA TABELA USERS*/
+
+ALTER TABLE users
+ADD COLUMN pais VARCHAR(255);
+
+-- Adicione coluna "idioma" à tabela "usuarios"
+ALTER TABLE users
+ADD COLUMN idioma VARCHAR(255);
+
+ALTER TABLE users
+ADD COLUMN endereco VARCHAR(255);
+
+-- Adicione coluna "renda" à tabela "usuarios"
+ALTER TABLE users
+ADD COLUMN renda DECIMAL(10, 2); 
+
+ALTER TABLE users
+RENAME COLUMN pais TO country;
+
+ALTER TABLE users
+RENAME COLUMN idioma TO language;
+
+ALTER TABLE users
+RENAME COLUMN renda TO  income;
+
+ALTER TABLE users
+RENAME COLUMN endereco TO address ;
+ 
+ 
+ /*ADICIONAR DADOS NAS NOVAS COLUNAS DA TABELA USERS*/
+
+UPDATE users
+SET country = 'Angola'
+WHERE password = 'senha3';
+
+UPDATE users
+SET country = 'Angola'
+WHERE password = 'senha4';
+
+UPDATE users
+SET country = 'Brasil'
+WHERE password = 'senha5';
+
+UPDATE users
+SET country = 'U.S.A'
+WHERE password = 'senha6';
+
+UPDATE users
+SET country = 'U.S.A'
+WHERE password = 'senha7';
+
+SELECT * FROM users;
