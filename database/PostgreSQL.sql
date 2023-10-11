@@ -138,3 +138,97 @@ SELECT u.name, r.title, r.description, r.status, c.commenttext
 FROM comments AS c
 INNER JOIN users AS u ON c.userid = u.userid
 INNER JOIN reports AS r ON c.reportid = r.reportid;
+
+
+/*ADICIONAR NOVAS COLUNAS NA TABELA USERS*/
+
+ALTER TABLE users
+ADD COLUMN pais VARCHAR(255);
+
+-- Adicione coluna "idioma" à tabela "usuarios"
+ALTER TABLE users
+ADD COLUMN idioma VARCHAR(255);
+
+ALTER TABLE users
+ADD COLUMN endereco VARCHAR(255);
+
+-- Adicione coluna "renda" à tabela "usuarios"
+ALTER TABLE users
+ADD COLUMN renda DECIMAL(10, 2); 
+
+ALTER TABLE users
+RENAME COLUMN pais TO country;
+
+ALTER TABLE users
+RENAME COLUMN idioma TO language;
+
+ALTER TABLE users
+RENAME COLUMN renda TO  income;
+
+ALTER TABLE users
+RENAME COLUMN endereco TO address ;
+ 
+ 
+/*ADICIONAR DADOS NAS NOVAS COLUNAS DA TABELA USERS*/
+
+UPDATE users
+SET country = 'Espanha'
+WHERE name  = 'Usuário 8';
+
+UPDATE users
+SET country = 'Espanha'
+WHERE name  = 'Usuário 9';
+
+
+UPDATE users
+SET language = 'Espanhol'
+WHERE name  = 'Usuário 8';
+
+UPDATE users
+SET language = 'Espanhol'
+WHERE name  = 'Usuário 9';
+
+UPDATE users
+SET language = 'Português'
+WHERE country = 'Angola';
+
+UPDATE users
+SET language = 'Português'
+WHERE country = 'Portugal';
+
+UPDATE users
+SET country = 'U.S.A'
+WHERE password = 'senha6';
+
+UPDATE users
+SET language = 'Inglês'
+WHERE country = 'U.S.A';
+
+/*----------------------------------------------------*/
+
+UPDATE users
+SET address = 'Rio de Janeiro'
+WHERE country = 'Brasil';
+
+UPDATE users
+SET address = 'Luanda'
+WHERE country = 'Angola';
+
+UPDATE users
+SET address = 'Barcelona'
+WHERE country = 'Espanha';
+
+UPDATE users
+SET country = 'U.S.A'
+WHERE password = 'senha6';
+
+UPDATE users
+SET address = 'London'
+WHERE country = 'U.S.A';
+
+UPDATE users
+SET address = 'Lisboa'
+WHERE country = 'Portugal';
+
+SELECT * FROM users;
+

@@ -8,18 +8,7 @@
     justify-content: center;
 }
 
-/* .modal{
-    width: 50%;
-    min-width:500px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.681);
-    backdrop-filter: blur(5px);
-    padding: 90px;
-    border-radius: 20px;
-    padding-top: 30px; 
-    justify-content: center;
-    
-} */
+
 
 .modal{
     display:flex;
@@ -159,13 +148,3 @@ hr{
     }
 }
 
-@media (max-width: 500px){
-    .modal-visualizar {
-        padding: 10px;
-        width: 80%;
-    }
-
-    span, .btns bottom {
-        font-size: smaller;
-    }
-}
