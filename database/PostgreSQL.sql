@@ -169,26 +169,66 @@ ALTER TABLE users
 RENAME COLUMN endereco TO address ;
  
  
- /*ADICIONAR DADOS NAS NOVAS COLUNAS DA TABELA USERS*/
+/*ADICIONAR DADOS NAS NOVAS COLUNAS DA TABELA USERS*/
 
 UPDATE users
-SET country = 'Angola'
-WHERE password = 'senha3';
+SET country = 'Espanha'
+WHERE name  = 'Usuário 8';
 
 UPDATE users
-SET country = 'Angola'
-WHERE password = 'senha4';
+SET country = 'Espanha'
+WHERE name  = 'Usuário 9';
+
 
 UPDATE users
-SET country = 'Brasil'
-WHERE password = 'senha5';
+SET language = 'Espanhol'
+WHERE name  = 'Usuário 8';
+
+UPDATE users
+SET language = 'Espanhol'
+WHERE name  = 'Usuário 9';
+
+UPDATE users
+SET language = 'Português'
+WHERE country = 'Angola';
+
+UPDATE users
+SET language = 'Português'
+WHERE country = 'Portugal';
 
 UPDATE users
 SET country = 'U.S.A'
 WHERE password = 'senha6';
 
 UPDATE users
+SET language = 'Inglês'
+WHERE country = 'U.S.A';
+
+/*----------------------------------------------------*/
+
+UPDATE users
+SET address = 'Rio de Janeiro'
+WHERE country = 'Brasil';
+
+UPDATE users
+SET address = 'Luanda'
+WHERE country = 'Angola';
+
+UPDATE users
+SET address = 'Barcelona'
+WHERE country = 'Espanha';
+
+UPDATE users
 SET country = 'U.S.A'
-WHERE password = 'senha7';
+WHERE password = 'senha6';
+
+UPDATE users
+SET address = 'London'
+WHERE country = 'U.S.A';
+
+UPDATE users
+SET address = 'Lisboa'
+WHERE country = 'Portugal';
 
 SELECT * FROM users;
+
