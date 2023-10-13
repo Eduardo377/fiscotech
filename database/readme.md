@@ -44,30 +44,34 @@ Banco de dados para o projeto "Fisco Tech" que inclui informações sobre usuár
 Aqui estão as relações entre as tabelas:
 
 - **Usuários (Users) para Denúncias (Reports):**
-        - Relação "Um para Muitos" com a tabela "Reports":
-            - Um usuário pode criar várias denúncias, mas cada denúncia é criada por apenas um usuário.
+        
+    - Relação "Um para Muitos" com a tabela "Reports":
+        - Um usuário pode criar várias denúncias, mas cada denúncia é criada por apenas um usuário.
 
 - **Denúncias (Reports) para Comentários (Comments):**
-        - Relação "Muitos para Um" com a tabela "Users":
-            - Várias denúncias podem estar associadas a um único usuário que as criou.
+        
+    - Relação "Muitos para Um" com a tabela "Users":
+        - Várias denúncias podem estar associadas a um único usuário que as criou.
 
-        - Relação "Um para Muitos" com a tabela "Comments":
-            - Uma denúncia pode ter vários comentários, mas cada comentário pertence a apenas uma denúncia.
+    - Relação "Um para Muitos" com a tabela "Comments":
+        - Uma denúncia pode ter vários comentários, mas cada comentário pertence a apenas uma denúncia.
 
-        - Relação "Um para Muitos" com a tabela "Attachments":
-            - Uma denúncia pode ter vários anexos, mas cada anexo pertence a apenas uma denúncia.
+    - Relação "Um para Muitos" com a tabela "Attachments":
+        - Uma denúncia pode ter vários anexos, mas cada anexo pertence a apenas uma denúncia.
 
 
 - **Comentários (Comments) para Usuários (Users):**
-        - Relação "Muitos para Um" com a tabela "Users":
-            - Vários comentários podem estar associados a um único usuário que os postou.
+        
+    - Relação "Muitos para Um" com a tabela "Users":
+        - Vários comentários podem estar associados a um único usuário que os postou.
 
-        - Relação "Muitos para Um" com a tabela "Reports":
-            - Vários comentários podem estar associados a uma única denúncia.
+    - Relação "Muitos para Um" com a tabela "Reports":
+        - Vários comentários podem estar associados a uma única denúncia.
 
 - **Denúncias (Attachments) para Anexos (Reports):**
-        - Relação "Muitos para Um" com a tabela "Reports":
-            - Vários anexos podem estar associados a uma única denúncia.
+        
+    - Relação "Muitos para Um" com a tabela "Reports":
+        - Vários anexos podem estar associados a uma única denúncia.
 
 Essas relações garantem que as informações estejam bem organizadas e podem ser recuperadas eficientemente por meio de consultas SQL quando necessário. Os usuários podem criar denúncias, adicionar comentários a essas denúncias e anexar arquivos, e todas essas informações são rastreadas e relacionadas no banco de dados.
 
