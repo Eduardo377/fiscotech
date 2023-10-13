@@ -10,7 +10,7 @@ CREATE TABLE Users (
     language VARCHAR(50) NOT NULL,
     income DECIMAL(10, 2) NOT NULL,
     address VARCHAR(255) NOT NULL,
-    country VARCHAR(255) NOT NULL,
+    country VARCHAR(255) NOT NULL
 );
 
  --Tabela de Denúncias
@@ -48,6 +48,7 @@ CREATE TABLE Attachments (
     ReportID INT,
     FOREIGN KEY (ReportID) REFERENCES Reports(ReportID)
 );
+
 
 -- Geração de 10 usuários fictícios
 INSERT INTO Users (Name, Email, PASSWORD, Role, nationality, language, income, address, country)
@@ -93,8 +94,7 @@ VALUES
 SELECT * from reports;
 
 -- Geração de 30 comentários fictícios relacionados a diferentes denúncias e usuários
-INSERT INTO Comments (CommentText, UserID, ReportID)
-VALUES
+
 INSERT INTO Comments (CommentText, UserID, ReportID)
 VALUES
     ('Comentário 1', 1, 1),
@@ -158,9 +158,6 @@ VALUES
 
 SELECT * from attachments;
 
-ALTER TABLE Users
-RENAME COLUMN senha TO PASSWORD;
-
 SELECT users.name, reports.title, reports.description, reports.status
 FROM reports
 INNER JOIN users ON users.userid = reports.reportid;
@@ -169,6 +166,3 @@ SELECT u.name, r.title, r.description, r.status, c.commenttext
 FROM comments AS c
 INNER JOIN users AS u ON c.userid = u.userid
 INNER JOIN reports AS r ON c.reportid = r.reportid;
-
-SELECT * FROM users;
-
