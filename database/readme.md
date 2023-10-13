@@ -44,10 +44,12 @@ Banco de dados para o projeto "Fisco Tech" que inclui informações sobre usuár
 Aqui estão as relações entre as tabelas:
 
 - **Usuários (Users) para Denúncias (Reports):**
+        
         - Relação "Um para Muitos" com a tabela "Reports":
             - Um usuário pode criar várias denúncias, mas cada denúncia é criada por apenas um usuário.
 
 - **Denúncias (Reports) para Comentários (Comments):**
+        
         - Relação "Muitos para Um" com a tabela "Users":
             - Várias denúncias podem estar associadas a um único usuário que as criou.
 
@@ -59,6 +61,7 @@ Aqui estão as relações entre as tabelas:
 
 
 - **Comentários (Comments) para Usuários (Users):**
+        
         - Relação "Muitos para Um" com a tabela "Users":
             - Vários comentários podem estar associados a um único usuário que os postou.
 
@@ -66,6 +69,7 @@ Aqui estão as relações entre as tabelas:
             - Vários comentários podem estar associados a uma única denúncia.
 
 - **Denúncias (Attachments) para Anexos (Reports):**
+        
         - Relação "Muitos para Um" com a tabela "Reports":
             - Vários anexos podem estar associados a uma única denúncia.
 
