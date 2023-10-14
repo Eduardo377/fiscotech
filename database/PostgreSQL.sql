@@ -66,7 +66,7 @@ VALUES
 
 SELECT * from users;
 
--- Geração de 10 denúncias fictícias relacionadas a diferentes usuários
+-- Geração de 20 denúncias fictícias relacionadas a diferentes usuários
 INSERT INTO Reports (Title, Description, address, UserID)
 VALUES
     ('Denúncia 1', 'Descrição da denúncia 1', 'Local da denúncia 1', 1),
@@ -131,7 +131,7 @@ VALUES
 	
 SELECT * from comments;
 
--- Geração de 10 anexos fictícios relacionados a diferentes denúncias
+-- Geração de 20 anexos fictícios relacionados a diferentes denúncias
 INSERT INTO Attachments (FileName, FileType, FilePath, ReportID)
 VALUES
     ('Anexo1.jpg', 'Image', 'caminho/do/anexo1.jpg', 1),
