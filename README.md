@@ -96,6 +96,11 @@ Junte-se a nós nessa importante missão de combate ao abuso no setor público e
 O Fisco Tech não se responsabiliza por informações falsas fornecidas por usuários mal-intencionados. Todas as denúncias serão analisadas cuidadosamente, mas a plataforma não pode garantir a resolução de todos os casos.
 
 É importante lembrar que o uso de identidades fictícias para preservar o anonimato do denunciante pode ser uma opção, mas, em alguns casos, a apresentação de evidências reais pode ser necessária para a apuração adequada das denúncias.
+
+## Modelo de Banco de Dados
+
+Para entender como nossos dados são armazenados e organizados, confira [a documentação do modelo de banco de dados](./database/readme.md),  na pasta "database." Este documento descreve a estrutura das tabelas e as relações de banco de dados para a nossa plataforma de denúncias e apoio a vítimas de abuso por agentes púbicos.
+
 ## Desenvolvedores 👩‍💻👨‍💻
 
 #### 🎈 Conheça a equipe de desenvolvedores por trás do Fisco Tech:

@@ -135,3 +135,9 @@ Neste código SQL:
 - A tabela `Reports` é usada para armazenar informações sobre as denúncias, incluindo título, descrição, data/hora de submissão, status e a associação com o usuário que a fez.
 - A tabela `Comments` permite que os usuários adicionem comentários às denúncias, com informações sobre o texto do comentário, data/hora e associação com o usuário e denúncia específicos.
 - A tabela `Attachments` permite que os usuários anexem arquivos (por exemplo, imagens, vídeos, documentos) às denúncias. Ela armazena informações sobre o nome do arquivo, tipo de arquivo, caminho do arquivo e a denúncia relacionada.
+
+## Diagrama lógico de Banco de Dados
+
+A seguir, apresentamos um diagrama de banco de dados que ilustra as tabelas e relações descritas acima:
+
+![Diagrama de Banco de Dados](./Logic_model_BRMW.pdf)
